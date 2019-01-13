@@ -4,7 +4,7 @@ This is the repo for Kaggle's Elo Merchant Category Recommendation. The Kaggle c
 # Problem Description
 The model will predict a loyalty score for each `card_id` based on the the customer features and merchant transaction history. 
 
-# Data
+# Data Description
 - train.csv - the training data set
 - test.csv - the test data set
 - merchants.csv - additional information about all merchants / `merchant_id`s in the dataset.
