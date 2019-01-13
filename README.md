@@ -2,7 +2,7 @@
 This is the repo for Kaggle's Elo Merchant Category Recommendation. The Kaggle competition page can be found in [the link here.](https://www.kaggle.com/c/elo-merchant-category-recommendation)
 
 # Problem Description
-The model will predict a loyalty score for each card_id based on the the customer features and merchant transaction history. 
+The model will predict a loyalty score for each `card_id` based on the the customer features and merchant transaction history. 
 
 # Data
 - train.csv - the training data set
