@@ -7,7 +7,7 @@ The model will predict a loyalty score for each `card_id` based on the the custo
 # Data
 - train.csv - the training data set
 - test.csv - the test data set
-- merchants.csv - additional information about all merchants / merchant_ids in the dataset.
+- merchants.csv - additional information about all merchants / `merchant_id`s in the dataset.
   - `merchant_id`: Unique merchant identifier
   - `merchant_group_id`: Merchant group (anonymized )
   - `merchant_category_id`: Unique identifier for merchant category (anonymized )
@@ -30,8 +30,8 @@ The model will predict a loyalty score for each `card_id` based on the the custo
   - `city_id`: City identifier (anonymized )
   - `state_id`: State identifier (anonymized )
   - `category_2`: anonymized category
-- historical_transactions.csv - up to 3 months' worth of historical transactions for each card_id
-- new_merchant_transactions.csv - two months' worth of data for each card_id containing ALL purchases that card_id made at merchant_ids that were not visited in the historical data.
+- historical_transactions.csv - up to 3 months' worth of historical transactions for each `card_id`
+- new_merchant_transactions.csv - two months' worth of data for each `card_id` containing ALL purchases that `card_id` made at `merchant_id`s that were not visited in the historical data.
 - sample_submission.csv - a sample submission file in the correct format whichcontains all card_ids you are expected to predict for.
 
 # Exploratory Data Analysis
