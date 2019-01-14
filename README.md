@@ -42,7 +42,7 @@ The model will predict a loyalty score for each `card_id` based on the the custo
   - `state_id`: State identifier (anonymized)
   - `category_2`: Anonymized category
 - historical_transactions.csv - Up to 3 months' worth of historical transactions for each `card_id`
-  - `authorized_flag`: Flag to indicate if the transaction is authorized
+  - `authorized_flag`: 'Y' if approved, 'N' if denied
   - `card_id`: Card identifier
   - `city_id`: City identifier (anonymized)
   - `category_1`: Anonymized category
@@ -57,7 +57,7 @@ The model will predict a loyalty score for each `card_id` based on the the custo
   - `state_id`: State identifier (anonymized)
   - `subsector_id`: Merchant category group (anonymized)
 - new_merchant_transactions.csv - Two months' worth of data for each `card_id` containing ALL purchases that `card_id` made at `merchant_id`s that were not visited in the historical data.
-  - `authorized_flag`: Flag to indicate if the transaction is authorized
+  - `authorized_flag`: 'Y' if approved, 'N' if denied
   - `card_id`: Card identifier
   - `city_id`: City identifier (anonymized)
   - `category_1`: Anonymized category
@@ -76,8 +76,26 @@ The model will predict a loyalty score for each `card_id` based on the the custo
   - `target`: Customer loyalty score
 
 # Exploratory Data Analysis
+The `features` in train and test data set have similar distributions.
+- `feature_1` has 5 unique values
+- `feature_2` has 3 unique values
+- `feature_3` has 2 unique values
 
-# Data Processing
+The `first_active_month` in in train and test data set have similar distributions.
+- More customer are active in recent years.
+- Distribution is very skewed towards in years 2016 - 2018.
+
+The `target` value in train data set is normally distrubited with some outliers.
+- The target variable is normally distributed around zero.
+- There are some very low loyalty scores below -30.
+
+# Data Processing and Feature Engineering
+- Transform the `target` in the train data set to make it more normally distributed.
+- Remove outlier with respect to `target` in the train data set (optional)
+
+# Model Evaluation
+- LightGBM
+- XGBoost
 
 # Model Selection
 
