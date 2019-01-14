@@ -81,13 +81,22 @@ The `features` in train and test data set have similar distributions.
 - `feature_2` has 3 unique values
 - `feature_3` has 2 unique values
 
+![feature 1](./images/feature_1.png)
+![feature 2](./images/feature_2.png)
+![feature 3](./images/feature_3.png)
+
 The `first_active_month` in in train and test data set have similar distributions.
 - More customer are active in recent years.
 - Distribution is very skewed towards in years 2016 - 2018.
 
+![first active month in train](./images/first_active_month_hist_train.png)
+![first active month in test](./images/first_active_month_hist_test.png)
+
 The `target` value in train data set is normally distrubited with some outliers.
 - The target variable is normally distributed around zero.
 - There are some very low loyalty scores below -30.
+
+![first active month in train](./images/target_hist.png)
 
 # Data Processing and Feature Engineering
 - Remove outlier with respect to `target` in train.csv (optional)
