@@ -90,8 +90,23 @@ The `target` value in train data set is normally distrubited with some outliers.
 - There are some very low loyalty scores below -30.
 
 # Data Processing and Feature Engineering
-- Transform the `target` in the train data set to make it more normally distributed.
-- Remove outlier with respect to `target` in the train data set (optional)
+- Remove outlier with respect to `target` in train.csv (optional)
+- Fill in logic for NA values of `first_active_month` in test.csv.
+- Log-transform the `target` in train.csv to make it more normally distributed.
+- Create new features from historical_transactions.csv
+  - hist_trans_num
+  - hist_trans_sum
+  - hist_trans_mean
+  - hist_trans_std
+  - hist_trans_min
+  - hist_trans_max
+- Create new features from new_merchant_transactions.csv
+  - new_trans_num
+  - new_trans_sum
+  - new_trans_mean
+  - new_trans_std
+  - new_trans_min
+  - new_trans_max
 
 # Model Evaluation
 - LightGBM
@@ -100,3 +115,7 @@ The `target` value in train data set is normally distrubited with some outliers.
 # Model Selection
 
 # Summary
+
+# Reference
+- [Starter EDA + XGBoost of Elo Merchant Data](https://www.kaggle.com/robikscube/starter-eda-xgboost-of-elo-merchant-data)
+- [Simple Exploration Notebook - Elo](https://www.kaggle.com/sudalairajkumar/simple-exploration-notebook-elo)
