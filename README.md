@@ -5,16 +5,27 @@ This is the repo for Kaggle's Elo Merchant Category Recommendation. The Kaggle c
 The model will predict a loyalty score for each `card_id` based on the the customer features and merchant transaction history. 
 
 # Data Description
-- train.csv - the training data set
-- test.csv - the test data set
-- merchants.csv - additional information about all merchants / `merchant_id`s in the dataset.
+- train.csv - The training data set
+  - `first_active_month`: Card first active month
+  - `card_id`: Card identifier
+  - `feature_1`: Customer feature 1
+  - `feature_2`: Customer feature 2
+  - `feature_3`: Customer feature 3
+  - `target`: Customer loyalty score
+- test.csv - The test data set
+  - `first_active_month`: Card first active month
+  - `card_id`: Card identifier
+  - `feature_1`: Customer feature 1
+  - `feature_2`: Customer feature 2
+  - `feature_3`: Customer feature 3
+- merchants.csv - Additional information about all merchants / `merchant_id`s in the dataset.
   - `merchant_id`: Unique merchant identifier
-  - `merchant_group_id`: Merchant group (anonymized )
-  - `merchant_category_id`: Unique identifier for merchant category (anonymized )
-  - `subsector_id`: Merchant category group (anonymized )
-  - `numerical_1`: anonymized measure
-  - `numerical_2`: anonymized measure
-  - `category_1`: anonymized category
+  - `merchant_group_id`: Merchant group (anonymized)
+  - `merchant_category_id`: Unique identifier for merchant category (anonymized)
+  - `subsector_id`: Merchant category group (anonymized)
+  - `numerical_1`: Anonymized measure
+  - `numerical_2`: Anonymized measure
+  - `category_1`: Anonymized category
   - `most_recent_sales_range`: Range of revenue (monetary units) in last active month --> A > B > C > D > E
   - `most_recent_purchases_range`: Range of quantity of transactions in last active month --> A > B > C > D > E
   - `avg_sales_lag3`: Monthly average of revenue in last 3 months divided by revenue in last active month
@@ -26,13 +37,43 @@ The model will predict a loyalty score for each `card_id` based on the the custo
   - `avg_sales_lag12`: Monthly average of revenue in last 12 months divided by revenue in last active month
   - `avg_purchases_lag12`: Monthly average of transactions in last 12 months divided by transactions in last active month
   - `active_months_lag12`: Quantity of active months within last 12 months
-  - `category_4`: anonymized category
-  - `city_id`: City identifier (anonymized )
-  - `state_id`: State identifier (anonymized )
-  - `category_2`: anonymized category
-- historical_transactions.csv - up to 3 months' worth of historical transactions for each `card_id`
-- new_merchant_transactions.csv - two months' worth of data for each `card_id` containing ALL purchases that `card_id` made at `merchant_id`s that were not visited in the historical data.
-- sample_submission.csv - a sample submission file in the correct format whichcontains all card_ids you are expected to predict for.
+  - `category_4`: Anonymized category
+  - `city_id`: City identifier (anonymized)
+  - `state_id`: State identifier (anonymized)
+  - `category_2`: Anonymized category
+- historical_transactions.csv - Up to 3 months' worth of historical transactions for each `card_id`
+  - `authorized_flag`: Flag to indicate if the transaction is authorized
+  - `card_id`: Card identifier
+  - `city_id`: City identifier (anonymized)
+  - `category_1`: Anonymized category
+  - `installments`: Number of installments of purchase
+  - `category_3`: Anonymized category
+  - `merchant_category_id`: Unique identifier for merchant category (anonymized)
+  - `merchant_id`: Unique merchant identifier
+  - `month_lag`: Month lag to reference date
+  - `purchase_amount`: Normalized purchase amount
+  - `purchase_date`: Purchase date
+  - `category_2`: Anonymized category
+  - `state_id`: State identifier (anonymized)
+  - `subsector_id`: Merchant category group (anonymized)
+- new_merchant_transactions.csv - Two months' worth of data for each `card_id` containing ALL purchases that `card_id` made at `merchant_id`s that were not visited in the historical data.
+  - `authorized_flag`: Flag to indicate if the transaction is authorized
+  - `card_id`: Card identifier
+  - `city_id`: City identifier (anonymized)
+  - `category_1`: Anonymized category
+  - `installments`: Number of installments of purchase
+  - `category_3`: Anonymized category
+  - `merchant_category_id`: Unique identifier for merchant category (anonymized)
+  - `merchant_id`: Unique merchant identifier
+  - `month_lag`: Month lag to reference date
+  - `purchase_amount`: Normalized purchase amount
+  - `purchase_date`: Purchase date
+  - `category_2`: Anonymized category
+  - `state_id`: State identifier (anonymized)
+  - `subsector_id`: Merchant category group (anonymized)
+- sample_submission.csv - A sample submission file in the correct format whichcontains all card_ids you are expected to predict for.
+  - `card_id`: Card identifier
+  - `target`: Customer loyalty score
 
 # Exploratory Data Analysis
 
