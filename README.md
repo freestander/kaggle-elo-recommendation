@@ -99,9 +99,10 @@ The `target` value in train data set is normally distrubited with some outliers.
 ![first active month in train](./images/target_hist.png)
 
 # Data Processing and Feature Engineering
-- Remove outlier with respect to `target` in train.csv (optional)
-- Fill in logic for NA values of `first_active_month` in test.csv.
+- Reduce memory footprint by optimizing data types.
+- Process outliers with respect to `target` in train.csv (optional).
 - Log-transform the `target` in train.csv to make it more normally distributed.
+- Fill in logic for NA values of `first_active_month` in test.csv.
 - Create new features from historical_transactions.csv
   - hist_trans_num
   - hist_trans_sum
@@ -117,14 +118,16 @@ The `target` value in train data set is normally distrubited with some outliers.
   - new_trans_min
   - new_trans_max
 
-# Model Evaluation
+# Parameter Tuning and Model Evaluation
 - LightGBM
 - XGBoost
 
-# Model Selection
+# Model Selection and Ensemble
 
 # Summary
 
 # Reference
 - [Starter EDA + XGBoost of Elo Merchant Data](https://www.kaggle.com/robikscube/starter-eda-xgboost-of-elo-merchant-data)
 - [Simple Exploration Notebook - Elo](https://www.kaggle.com/sudalairajkumar/simple-exploration-notebook-elo)
+- [Reducing Memory Footprint](https://www.kaggle.com/rahulahuja010/reducing-memory-footprint)
+- [Reducing memory use of Transactions df by 12x](https://www.kaggle.com/poedator/reducing-memory-use-of-transactions-df-by-12x)
