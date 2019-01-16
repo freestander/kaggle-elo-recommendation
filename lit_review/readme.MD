@@ -2,6 +2,25 @@
 
 Competition is regression based. So the following only focuses on regression based reference.
 
+List of regression-based competitions:
+- [House Prices: Advanced Regression Techniques](https://www.kaggle.com/c/house-prices-advanced-regression-techniques)
+- [New York City Taxi Fare Prediction](https://www.kaggle.com/c/new-york-city-taxi-fare-prediction)
+- [Corporación Favorita Grocery Sales Forecasting](https://www.kaggle.com/c/favorita-grocery-sales-forecasting)
+- [Zillow Prize: Zillow’s Home Value Prediction (Zestimate)](https://www.kaggle.com/c/zillow-prize-1)
+- [Mercedes-Benz Greener Manufacturing](https://www.kaggle.com/c/mercedes-benz-greener-manufacturing)
+- [Allstate Claims Severity](https://www.kaggle.com/c/allstate-claims-severity)
+- [How Much Did It Rain? II](https://www.kaggle.com/c/how-much-did-it-rain-ii)
+- [Caterpillar Tube Pricing](https://www.kaggle.com/c/caterpillar-tube-pricing)
+- [Walmart Recruiting II: Sales in Stormy Weather](https://www.kaggle.com/c/walmart-recruiting-sales-in-stormy-weather)
+- [PUBG Finish Placement Prediction (Kernels Only)](https://www.kaggle.com/c/pubg-finish-placement-prediction)
+- [Outbrain Click Prediction](https://www.kaggle.com/c/outbrain-click-prediction)
+- [Grupo Bimbo Inventory Demand](https://www.kaggle.com/c/grupo-bimbo-inventory-demand)
+- [Expedia Hotel Recommendations](https://www.kaggle.com/c/expedia-hotel-recommendations)
+- [The Winton Stock Market Challenge](https://www.kaggle.com/c/the-winton-stock-market-challenge)
+- [ECML/PKDD 15: Taxi Trip Time Prediction (II)](https://www.kaggle.com/c/pkdd-15-taxi-trip-time-prediction-ii)
+- [Bike Sharing Demand](https://www.kaggle.com/c/bike-sharing-demand)
+- [Avito Demand Prediction Challenge](https://www.kaggle.com/c/avito-demand-prediction)
+
 ## 1. Kernels and Discussion
 
 ### 1a. Kernels/Discussion in the competition
@@ -10,6 +29,7 @@ Competition is regression based. So the following only focuses on regression bas
 - [Elo Merchant Category Recommendation: Sharing of my experience so far](https://www.kaggle.com/c/elo-merchant-category-recommendation/discussion/75935)
 
 ### 1b. Kernels/Discussion in other competitions
+-[* Summary: Winning solutions of kaggle competitions](https://www.kaggle.com/sudalairajkumar/winning-solutions-of-kaggle-competitions)
 - [Santander Value Prediction Challenge: Winner Solution - Giba & Lucasz](https://www.kaggle.com/c/santander-value-prediction-challenge/discussion/65272)
 - [Santander Value Prediction Challenge: 21st place solution (bug fixed) [private: 0.52785]](https://www.kaggle.com/rsakata/21st-place-solution-bug-fixed-private-0-52785)
 - [Santander Value Prediction Challenge: [0.49-PublicLB]Simple_Blend(Private_LB_rank_126th)](https://www.kaggle.com/khahuras/0-49-publiclb-simple-blend-private-lb-rank-126th)
@@ -35,7 +55,7 @@ Competition is regression based. So the following only focuses on regression bas
 - [Corporación Favorita Grocery Sales Forecasting: 5th Place Solution](https://www.kaggle.com/c/favorita-grocery-sales-forecasting/discussion/47556)
 - [Corporación Favorita Grocery Sales Forecasting: 8th solution](https://www.kaggle.com/c/favorita-grocery-sales-forecasting/discussion/47564)
 - [Kaggle Avito Demand Prediction Challenge: Analysis of Winning Submissions](http://mlexplained.com/2018/08/18/kaggle-avito-demand-prediction-challenge-analysis-of-winning-submissions/)
--[**Summary: Winning solutions of kaggle competitions**](https://www.kaggle.com/sudalairajkumar/winning-solutions-of-kaggle-competitions)
+
 
 ## 2. Papers and Hyperlinks
 
