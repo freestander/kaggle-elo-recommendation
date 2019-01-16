@@ -212,6 +212,9 @@ List of regression-based competitions:
 - [Real Python - Speed Up Your Python Program With Concurrency](https://realpython.com/python-concurrency/)
 - [First Steps with numba](http://numba.pydata.org/numba-doc/0.12.2/tutorial_firststeps.html)
 
+### 2i. Project Papers
+- [Using Machine Learning to Cocreate Value through Dynamic Customer Engagement in a Brand Loyalty Program](https://www.researchgate.net/publication/322815855_Using_Machine_Learning_to_Cocreate_Value_through_Dynamic_Customer_Engagement_in_a_Brand_Loyalty_Program)
+
 ## 3. Domain Knowledge
 
 ### 7 reasons to view analytics provided by a credit card payment processor
