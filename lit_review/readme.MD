@@ -54,6 +54,8 @@ Competition is regression based. So the following only focuses on regression bas
 ### 2e. Model
 
 ### 2f. Parameter Tuning
+- [Analytics Vidhya: Complete Guide to Parameter Tuning in XGBoost (with codes in Python)](https://www.analyticsvidhya.com/blog/2016/03/complete-guide-parameter-tuning-xgboost-with-codes-python/)
+- [How to Tuning XGboost in an efficient way](https://www.kaggle.com/general/17120)
 
 ### 2g. Ensemble
 
