@@ -5,8 +5,8 @@ Competition is regression based. So the following only focuses on regression bas
 ## 1. Kernels and Discussion
 
 ### 1a. Kernels/Discussion in the competition
-- [Combining your model with a model without outlier](https://www.kaggle.com/waitingli/combining-your-model-with-a-model-without-outlier)
-- [LIghtGBM (GBDT + RF) Baysian Ridge Reg:[LB 3.61]](https://www.kaggle.com/ashishpatel26/lightgbm-gbdt-rf-baysian-ridge-reg-lb-3-61)
+- [Elo Merchant Category Recommendation: Combining your model with a model without outlier](https://www.kaggle.com/waitingli/combining-your-model-with-a-model-without-outlier)
+- [Elo Merchant Category Recommendation: LIghtGBM (GBDT + RF) Baysian Ridge Reg:[LB 3.61]](https://www.kaggle.com/ashishpatel26/lightgbm-gbdt-rf-baysian-ridge-reg-lb-3-61)
 
 ### 1b. Kernels/Discussion in other competitions
 - [Santander Value Prediction Challenge: Winner Solution - Giba & Lucasz](https://www.kaggle.com/c/santander-value-prediction-challenge/discussion/65272)
@@ -14,7 +14,13 @@ Competition is regression based. So the following only focuses on regression bas
 - [Santander Value Prediction Challenge: [0.49-PublicLB]Simple_Blend(Private_LB_rank_126th)](https://www.kaggle.com/khahuras/0-49-publiclb-simple-blend-private-lb-rank-126th)
 - [Santander Value Prediction Challenge: 5 place mini write-up](https://www.kaggle.com/c/santander-value-prediction-challenge/discussion/63822)
 - [Santander Value Prediction Challenge: 2nd place solution overview](https://www.kaggle.com/c/santander-value-prediction-challenge/discussion/63848)
-- [Santander Value Prediction Challenge: ]()
+- [Sberbank Russian Housing Market: A Very Extensive Sberbank Exploratory Analysis](https://www.kaggle.com/captcalculator/a-very-extensive-sberbank-exploratory-analysis)
+- [Sberbank Russian Housing Market: Simple Exploration Notebook - Sberbank](https://www.kaggle.com/sudalairajkumar/simple-exploration-notebook-sberbank)
+- [Sberbank Russian Housing Market: 1st place solution](https://www.kaggle.com/c/sberbank-russian-housing-market/discussion/35684)
+- [Sberbank Russian Housing Market: 15th place solution](https://www.kaggle.com/c/sberbank-russian-housing-market/discussion/35700)
+- [Sberbank Russian Housing Market: 21st place submission](https://www.kaggle.com/c/sberbank-russian-housing-market/discussion/35570)
+- [Restaurant Revenue Prediction: Winning Solution](https://www.kaggle.com/c/restaurant-revenue-prediction/discussion/14066)
+- [Restaurant Revenue Prediction: Restaurant Revenue - 1st place solution](https://www.kaggle.com/jquesadar/restaurant-revenue-1st-place-solution)
 
 
 ## 2. Papers and Hyperlinks
