@@ -56,6 +56,7 @@ Competition is regression based. So the following only focuses on regression bas
 ### 2f. Parameter Tuning
 - [Analytics Vidhya: Complete Guide to Parameter Tuning in XGBoost (with codes in Python)](https://www.analyticsvidhya.com/blog/2016/03/complete-guide-parameter-tuning-xgboost-with-codes-python/)
 - [How to Tuning XGboost in an efficient way](https://www.kaggle.com/general/17120)
+- [yellowbrick: Model Selection Tutorial](http://www.scikit-yb.org/en/latest/tutorial.html)
 
 ### 2g. Ensemble
 
@@ -69,3 +70,7 @@ Competition is regression based. So the following only focuses on regression bas
 - [How to Win Kaggle Competitions](https://www.kaggle.com/getting-started/44997)
 - [Medium: “Data Science A-Z from Zero to Kaggle Kernels Master”](https://towardsdatascience.com/data-science-from-zero-to-kaggle-kernels-master-f9115eadbb3)
 - [Medium: My secret sauce to be in top 2% of a kaggle competition](https://towardsdatascience.com/my-secret-sauce-to-be-in-top-2-of-a-kaggle-competition-57cff0677d3c)
+- [Medium:　Machine Learning Kaggle Competition Part One: Getting Started](https://towardsdatascience.com/machine-learning-kaggle-competition-part-one-getting-started-32fb9ff47426)
+- [Medium:　Machine Learning Kaggle Competition Part Two: Improving](https://towardsdatascience.com/machine-learning-kaggle-competition-part-two-improving-e5b4d61ab4b8)
+- [Medium:　Machine Learning Kaggle Competition: Part Three Optimization](https://towardsdatascience.com/machine-learning-kaggle-competition-part-three-optimization-db04ea415507)
+- [Medium:]()
