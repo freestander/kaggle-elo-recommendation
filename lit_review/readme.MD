@@ -57,8 +57,13 @@ Competition is regression based. So the following only focuses on regression bas
 
 ### 2g. Ensemble
 
+### 2h. Computational Performance
+- [How to Work with BIG Datasets on Kaggle Kernels (16G RAM)](https://www.kaggle.com/yuliagm/how-to-work-with-big-datasets-on-16g-ram-dask)
+- [Real Python - Speed Up Your Python Program With Concurrency](https://realpython.com/python-concurrency/)
+- [First Steps with numba](http://numba.pydata.org/numba-doc/0.12.2/tutorial_firststeps.html)
 
 ## 3. Other stuff
 - [Profiling Top Kagglers: Bestfitting, Currently #1 in the World](http://blog.kaggle.com/2018/05/07/profiling-top-kagglers-bestfitting-currently-1-in-the-world/)
-- [Real Python - Speed Up Your Python Program With Concurrency](https://realpython.com/python-concurrency/)
-- [First Steps with numba](http://numba.pydata.org/numba-doc/0.12.2/tutorial_firststeps.html)
+- [How to Win Kaggle Competitions](https://www.kaggle.com/getting-started/44997)
+- [Medium: “Data Science A-Z from Zero to Kaggle Kernels Master”](https://towardsdatascience.com/data-science-from-zero-to-kaggle-kernels-master-f9115eadbb3)
+- [Medium: My secret sauce to be in top 2% of a kaggle competition](https://towardsdatascience.com/my-secret-sauce-to-be-in-top-2-of-a-kaggle-competition-57cff0677d3c)
