@@ -18,6 +18,10 @@ List of regression-based competitions:
 - [ECML/PKDD 15: Taxi Trip Time Prediction (II)  (RMSLE)](https://www.kaggle.com/c/pkdd-15-taxi-trip-time-prediction-ii)
 - [Bike Sharing Demand (RMSLE)](https://www.kaggle.com/c/bike-sharing-demand)
 - [Avito Demand Prediction Challenge (RMSE)](https://www.kaggle.com/c/avito-demand-prediction)
+- [Santander Value Prediction Challenge (RMSLE)](https://www.kaggle.com/c/santander-value-prediction-challenge)
+- [Sberbank Russian Housing Market (RMSLE)](https://www.kaggle.com/c/sberbank-russian-housing-market)
+- [Restaurant Revenue Prediction (RMSE)](https://www.kaggle.com/c/restaurant-revenue-prediction)
+- [Google Analytics Customer Revenue Prediction (RMSE)](https://www.kaggle.com/c/ga-customer-revenue-prediction)
 
 ## 1. Kernels and Discussion
 
@@ -27,7 +31,8 @@ List of regression-based competitions:
 - [Elo Merchant Category Recommendation: Sharing of my experience so far](https://www.kaggle.com/c/elo-merchant-category-recommendation/discussion/75935)
 
 ### 1b. Kernels/Discussion in other competitions
-- [* Summary: Winning solutions of kaggle competitions](https://www.kaggle.com/sudalairajkumar/winning-solutions-of-kaggle-competitions)
+
+#### House Prices: Advanced Regression Techniques (RMSE)
 - [House Prices: Advanced Regression Techniques: Top 10 (0.10943): stacking, MICE and brutal force](https://www.kaggle.com/agehsbarg/top-10-0-10943-stacking-mice-and-brutal-force)
 - [House Prices: Advanced Regression Techniques: Hybrid SVM Benchmark Approach [0.11180] LB: Top 2%](https://www.kaggle.com/couyang/hybrid-svm-benchmark-approach-0-11180-lb-top-2)
 - [House Prices: Advanced Regression Techniques: Top 2% from Laurenstc on house price prediction](https://www.kaggle.com/hemingwei/top-2-from-laurenstc-on-house-price-prediction)
@@ -35,22 +40,30 @@ List of regression-based competitions:
 - [House Prices: Advanced Regression Techniques: the secret to making good predictions](https://www.kaggle.com/c/house-prices-advanced-regression-techniques/discussion/32381)
 - [House Prices: Advanced Regression Techniques: Dealing with Missing Data in the Test Dataset](https://www.kaggle.com/c/house-prices-advanced-regression-techniques/discussion/35968)
 - [House Prices: Advanced Regression Techniques: Lessons learned from 1st Kaggle Compeitition](https://www.kaggle.com/c/house-prices-advanced-regression-techniques/discussion/40391)
+
+#### New York City Taxi Fare Prediction (RMSE)
 - [New York City Taxi Fare Prediction: NYC Taxi Fare - Data Exploration](https://www.kaggle.com/breemen/nyc-taxi-fare-data-exploration)
 - [New York City Taxi Fare Prediction: Python Version of Top Ten Rank R 22 M (2.88)](https://www.kaggle.com/jsylas/python-version-of-top-ten-rank-r-22-m-2-88)
 - [New York City Taxi Fare Prediction: EDA+ Data Cleaning + XG Boost](https://www.kaggle.com/sandeepkumar121995/eda-data-cleaning-xg-boost)
 - [New York City Taxi Fare Prediction: Ideas for Improvement](https://www.kaggle.com/c/new-york-city-taxi-fare-prediction/discussion/62393)
+
+#### Corporación Favorita Grocery Sales Forecasting (NWRMSLE)
 - [Corporación Favorita Grocery Sales Forecasting: 1st place solution](https://www.kaggle.com/c/favorita-grocery-sales-forecasting/discussion/47582#latest-360306)
 - [Corporación Favorita Grocery Sales Forecasting: 2nd place solution overview](https://www.kaggle.com/c/favorita-grocery-sales-forecasting/discussion/47568)
 - [Corporación Favorita Grocery Sales Forecasting: 3rd place solution overview](https://www.kaggle.com/c/favorita-grocery-sales-forecasting/discussion/47560#latest-302253)
 - [Corporación Favorita Grocery Sales Forecasting: 4th-Place Solution Overview](https://www.kaggle.com/c/favorita-grocery-sales-forecasting/discussion/47529)
 - [Corporación Favorita Grocery Sales Forecasting: 5th Place Solution](https://www.kaggle.com/c/favorita-grocery-sales-forecasting/discussion/47556)
 - [Corporación Favorita Grocery Sales Forecasting: 8th solution](https://www.kaggle.com/c/favorita-grocery-sales-forecasting/discussion/47564)
+
+#### Zillow Prize: Zillow’s Home Value Prediction (Zestimate) (MAE)
 - [Zillow Prize: Zillow’s Home Value Prediction (Zestimate): Exploratory Analysis Zillow](https://www.kaggle.com/philippsp/exploratory-analysis-zillow)
 - [Zillow Prize: Zillow’s Home Value Prediction (Zestimate): Simple Exploration Notebook - Zillow Prize](https://www.kaggle.com/sudalairajkumar/simple-exploration-notebook-zillow-prize)
 - [Zillow Prize: Zillow’s Home Value Prediction (Zestimate): Only_Cat boost (LB : 0.0641 939)](https://www.kaggle.com/abdelwahedassklou/only-cat-boost-lb-0-0641-939)
 - [Zillow Prize: Zillow’s Home Value Prediction (Zestimate): XGBoost, LightGBM, and OLS and NN](https://www.kaggle.com/aharless/xgboost-lightgbm-and-ols-and-nn)
 - [Zillow Prize: Zillow’s Home Value Prediction (Zestimate): Boost your score with stacknet ( 0.06433 with another script)](https://www.kaggle.com/c/zillow-prize-1/discussion/39111)
 - [Zillow Prize: Zillow’s Home Value Prediction (Zestimate): 17th Place Solution](https://www.kaggle.com/c/zillow-prize-1/discussion/47434)
+
+#### Mercedes-Benz Greener Manufacturing (R^2)
 - [Mercedes-Benz Greener Manufacturing: Simple Exploration Notebook - Mercedes](https://www.kaggle.com/sudalairajkumar/simple-exploration-notebook-mercedes)
 - [Mercedes-Benz Greener Manufacturing: MercEDAs - update2 - intrinsic noise](https://www.kaggle.com/headsortails/mercedas-update2-intrinsic-noise)
 - [Mercedes-Benz Greener Manufacturing: Mercedes magic features (Private LB:0.54200)](https://www.kaggle.com/dmi3kno/mercedes-magic-features-private-lb-0-54200)
@@ -60,12 +73,16 @@ List of regression-based competitions:
 - [Mercedes-Benz Greener Manufacturing: 6th Place solution](https://www.kaggle.com/tobikaggle/stacked-then-averaged-models-0-5697)
 - [Mercedes-Benz Greener Manufacturing: 10th solution, average 4 predictions](https://www.kaggle.com/c/mercedes-benz-greener-manufacturing/discussion/36128)
  [Mercedes-Benz Greener Manufacturing: in CV you must trust](https://www.kaggle.com/c/mercedes-benz-greener-manufacturing/discussion/36136)
+ 
+ #### Allstate Claims Severity (MAE)
 - [Allstate Claims Severity: Exploratory study on ML algorithms](https://www.kaggle.com/sharmasanthosh/exploratory-study-on-ml-algorithms)
 - [Allstate Claims Severity: All-Trump-State](https://www.kaggle.com/vishallakha/all-trump-state)
 - [Allstate Claims Severity: my test1](https://www.kaggle.com/pedram/my-test1)
 - [Allstate Claims Severity: #1st Place Solution](https://www.kaggle.com/c/allstate-claims-severity/discussion/26416)
 - [Allstate Claims Severity: #2nd Place Solution](https://www.kaggle.com/c/allstate-claims-severity/discussion/26427)
 - [Allstate Claims Severity: Faron's 3rd Place Solution](https://www.kaggle.com/c/allstate-claims-severity/discussion/26447)
+
+#### How Much Did It Rain? II (MAE)
 - [How Much Did It Rain? II: Beware of Outliers !!](https://www.kaggle.com/sudalairajkumar/rainfall-test)
 - [How Much Did It Rain? II: 38% Missing Data](https://www.kaggle.com/c/how-much-did-it-rain-ii/discussion/16572)
 - [How Much Did It Rain? II: Cross Validating](https://www.kaggle.com/c/how-much-did-it-rain-ii/discussion/16680)
@@ -74,37 +91,54 @@ List of regression-based competitions:
 - [How Much Did It Rain? II: 1st solution github](https://github.com/simaaron/kaggle-Rain)
 - [How Much Did It Rain? II: How Much Did It Rain? II: 2nd place, Luis Andre Dutra e Silva](http://blog.kaggle.com/2015/12/17/how-much-did-it-rain-ii-2nd-place-luis-andre-dutra-e-silva/)
 - [How Much Did It Rain? II: 30th solution github](https://github.com/vopani/Kaggle_Rain2)
+
+#### Caterpillar Tube Pricing (RMSLE)
 - [Caterpillar Tube Pricing: 0.2748 with RF and log transformation](https://www.kaggle.com/ademyttenaere/0-2748-with-rf-and-log-transformation)
 - [Caterpillar Tube Pricing: How We Won the Caterpillar Machine Learning Competition at Kaggle](http://mariofilho.com/won-caterpillar-machine-learning-competition-kaggle/)
 - [Caterpillar Tube Pricing: Caterpillar Winners' Interview: 1st place, Gilberto | Josef | Leustagos | Mario](http://blog.kaggle.com/2015/09/22/caterpillar-winners-interview-1st-place-gilberto-josef-leustagos-mario/)
 - [Caterpillar Tube Pricing: 7th place writeup](https://weiminwang.blog/2015/09/02/caterpillar-tube-pricing-feature-engineering-and-ensemble-approach/)
 - [Caterpillar Tube Pricing: 7th place github](https://github.com/aaxwaz/Caterpillar-Tube-Pricing-Kaggle)
 - [Caterpillar Tube Pricing: Keras starter code](https://www.kaggle.com/fchollet/keras-starter-code)
+
+#### Walmart Recruiting II: Sales in Stormy Weather (RMSLE)
 - [Walmart Recruiting II: Sales in Stormy Weather: Simple writeup by first place](http://analyticscosm.com/secret-sauce-behind-15-kaggle-winning-ideas/)
 - [Walmart Recruiting II: Sales in Stormy Weather: First Place Entry](https://www.kaggle.com/c/walmart-recruiting-sales-in-stormy-weather/discussion/14452#80451)
-- [Walmart Recruiting II: Sales in Stormy Weather: ]()
-- [Walmart Recruiting II: Sales in Stormy Weather: ]()
-- [Walmart Recruiting II: Sales in Stormy Weather: ]()
-- [Walmart Recruiting II: Sales in Stormy Weather: ]()
-- [Walmart Recruiting II: Sales in Stormy Weather: ]()
 
+#### PUBG Finish Placement Prediction (Kernels Only) (MAE)
 
+#### Grupo Bimbo Inventory Demand (RMSLE)
 
+#### The Winton Stock Market Challenge (WMAE)
+
+#### ECML/PKDD 15: Taxi Trip Time Prediction (II) (RMSLE)
+
+#### Bike Sharing Demand (RMSLE)
+
+#### Avito Demand Prediction Challenge (RMSE)
+- [Kaggle Avito Demand Prediction Challenge: Analysis of Winning Submissions](http://mlexplained.com/2018/08/18/kaggle-avito-demand-prediction-challenge-analysis-of-winning-submissions/)
+
+#### Santander Value Prediction Challenge (RMSLE)
 - [Santander Value Prediction Challenge: Winner Solution - Giba & Lucasz](https://www.kaggle.com/c/santander-value-prediction-challenge/discussion/65272)
 - [Santander Value Prediction Challenge: 21st place solution (bug fixed) [private: 0.52785]](https://www.kaggle.com/rsakata/21st-place-solution-bug-fixed-private-0-52785)
 - [Santander Value Prediction Challenge: [0.49-PublicLB]Simple_Blend(Private_LB_rank_126th)](https://www.kaggle.com/khahuras/0-49-publiclb-simple-blend-private-lb-rank-126th)
 - [Santander Value Prediction Challenge: 5 place mini write-up](https://www.kaggle.com/c/santander-value-prediction-challenge/discussion/63822)
 - [Santander Value Prediction Challenge: 2nd place solution overview](https://www.kaggle.com/c/santander-value-prediction-challenge/discussion/63848)
+
+#### Sberbank Russian Housing Market (RMSLE)
 - [Sberbank Russian Housing Market: A Very Extensive Sberbank Exploratory Analysis](https://www.kaggle.com/captcalculator/a-very-extensive-sberbank-exploratory-analysis)
 - [Sberbank Russian Housing Market: Simple Exploration Notebook - Sberbank](https://www.kaggle.com/sudalairajkumar/simple-exploration-notebook-sberbank)
 - [Sberbank Russian Housing Market: 1st place solution](https://www.kaggle.com/c/sberbank-russian-housing-market/discussion/35684)
 - [Sberbank Russian Housing Market: 15th place solution](https://www.kaggle.com/c/sberbank-russian-housing-market/discussion/35700)
 - [Sberbank Russian Housing Market: 21st place submission](https://www.kaggle.com/c/sberbank-russian-housing-market/discussion/35570)
+
+#### Restaurant Revenue Prediction (RMSE)
 - [Restaurant Revenue Prediction: Winning Solution](https://www.kaggle.com/c/restaurant-revenue-prediction/discussion/14066)
 - [Restaurant Revenue Prediction: Restaurant Revenue - 1st place solution](https://www.kaggle.com/jquesadar/restaurant-revenue-1st-place-solution)
+
+#### Google Analytics Customer Revenue Prediction (RMSE)
 - [Google Analytics Customer Revenue Prediction: Simple Exploration+Baseline - GA Customer Revenue](https://www.kaggle.com/sudalairajkumar/simple-exploration-baseline-ga-customer-revenue)
 - [Google Analytics Customer Revenue Prediction: Group xgb for Gstore v2](https://www.kaggle.com/kailex/group-xgb-for-gstore-v2)
-- [Kaggle Avito Demand Prediction Challenge: Analysis of Winning Submissions](http://mlexplained.com/2018/08/18/kaggle-avito-demand-prediction-challenge-analysis-of-winning-submissions/)
+
 
 
 ## 2. Papers and Hyperlinks
@@ -150,3 +184,4 @@ List of regression-based competitions:
 - [ShuaiW - Kaggle - Regression](https://libraries.io/github/ShuaiW/kaggle-regression)
 - [Secret Sauce Behind 9 Kaggle Winning Ideas](http://analyticscosm.com/secret-sauce-behind-15-kaggle-winning-ideas/)
 - [threecourse on bitbucket: Past Competitions and Solutions](https://bitbucket.org/threecourse/kaggle-wiki/wiki/Past%20Competitions%20and%20Solutions%20(-%20June%202016))
+- [Summary: Winning solutions of kaggle competitions](https://www.kaggle.com/sudalairajkumar/winning-solutions-of-kaggle-competitions)
