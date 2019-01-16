@@ -157,8 +157,11 @@ List of regression-based competitions:
 - [Winner Solution - Giba & Lucasz](https://www.kaggle.com/c/santander-value-prediction-challenge/discussion/65272)
 - [21st place solution (bug fixed) [private: 0.52785]](https://www.kaggle.com/rsakata/21st-place-solution-bug-fixed-private-0-52785)
 - [[0.49-PublicLB]Simple_Blend(Private_LB_rank_126th)](https://www.kaggle.com/khahuras/0-49-publiclb-simple-blend-private-lb-rank-126th)
-- [5 place mini write-up](https://www.kaggle.com/c/santander-value-prediction-challenge/discussion/63822)
+- [#1 Solution: Leak Part](https://www.kaggle.com/c/santander-value-prediction-challenge/discussion/63931)
+- [Winner #1 Position Mini Writeup](https://www.kaggle.com/c/santander-value-prediction-challenge/discussion/63907)
 - [2nd place solution overview](https://www.kaggle.com/c/santander-value-prediction-challenge/discussion/63848)
+- [5 place mini write-up](https://www.kaggle.com/c/santander-value-prediction-challenge/discussion/63822)
+- [Special Sauce - the Santander Process is a Time Series](https://www.kaggle.com/c/santander-value-prediction-challenge/discussion/61396)
 
 #### Sberbank Russian Housing Market (RMSLE)
 - [A Very Extensive Sberbank Exploratory Analysis](https://www.kaggle.com/captcalculator/a-very-extensive-sberbank-exploratory-analysis)
@@ -170,12 +173,14 @@ List of regression-based competitions:
 #### Restaurant Revenue Prediction (RMSE)
 - [Winning Solution](https://www.kaggle.com/c/restaurant-revenue-prediction/discussion/14066)
 - [Restaurant Revenue - 1st place solution](https://www.kaggle.com/jquesadar/restaurant-revenue-1st-place-solution)
+- [Winning Solution](https://www.kaggle.com/c/restaurant-revenue-prediction/discussion/14066)
+- [38th place github](https://github.com/WesleyyC/Restaurant-Revenue-Prediction)
+- [Medium: Restaurant Revenue Prediction using Gradient Boosting Regression and Principal Component Analysis](https://medium.com/@paul90.hn/restaurant-revenue-prediction-using-gradient-boosting-regression-and-principal-component-analysis-346287c0fab)
 
 #### Google Analytics Customer Revenue Prediction (RMSE)
 - [Simple Exploration+Baseline - GA Customer Revenue](https://www.kaggle.com/sudalairajkumar/simple-exploration-baseline-ga-customer-revenue)
 - [Group xgb for Gstore v2](https://www.kaggle.com/kailex/group-xgb-for-gstore-v2)
-
-
+- [Google Analytics Customer Revenue Prediction -kaggle challenge (Part One)](https://medium.com/@jacky308082/this-time-i-would-try-to-use-english-to-explain-this-whole-project-4a26c9294ccf)
 
 ## 2. Papers and Hyperlinks
 
