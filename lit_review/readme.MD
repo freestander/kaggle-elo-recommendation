@@ -3,23 +3,21 @@
 Competition is regression based. So the following only focuses on regression based reference.
 
 List of regression-based competitions:
-- [House Prices: Advanced Regression Techniques](https://www.kaggle.com/c/house-prices-advanced-regression-techniques)
-- [New York City Taxi Fare Prediction](https://www.kaggle.com/c/new-york-city-taxi-fare-prediction)
-- [Corporación Favorita Grocery Sales Forecasting](https://www.kaggle.com/c/favorita-grocery-sales-forecasting)
-- [Zillow Prize: Zillow’s Home Value Prediction (Zestimate)](https://www.kaggle.com/c/zillow-prize-1)
-- [Mercedes-Benz Greener Manufacturing](https://www.kaggle.com/c/mercedes-benz-greener-manufacturing)
-- [Allstate Claims Severity](https://www.kaggle.com/c/allstate-claims-severity)
-- [How Much Did It Rain? II](https://www.kaggle.com/c/how-much-did-it-rain-ii)
-- [Caterpillar Tube Pricing](https://www.kaggle.com/c/caterpillar-tube-pricing)
-- [Walmart Recruiting II: Sales in Stormy Weather](https://www.kaggle.com/c/walmart-recruiting-sales-in-stormy-weather)
-- [PUBG Finish Placement Prediction (Kernels Only)](https://www.kaggle.com/c/pubg-finish-placement-prediction)
-- [Outbrain Click Prediction](https://www.kaggle.com/c/outbrain-click-prediction)
-- [Grupo Bimbo Inventory Demand](https://www.kaggle.com/c/grupo-bimbo-inventory-demand)
-- [Expedia Hotel Recommendations](https://www.kaggle.com/c/expedia-hotel-recommendations)
-- [The Winton Stock Market Challenge](https://www.kaggle.com/c/the-winton-stock-market-challenge)
-- [ECML/PKDD 15: Taxi Trip Time Prediction (II)](https://www.kaggle.com/c/pkdd-15-taxi-trip-time-prediction-ii)
-- [Bike Sharing Demand](https://www.kaggle.com/c/bike-sharing-demand)
-- [Avito Demand Prediction Challenge](https://www.kaggle.com/c/avito-demand-prediction)
+- [House Prices: Advanced Regression Techniques (RMSE)](https://www.kaggle.com/c/house-prices-advanced-regression-techniques)
+- [New York City Taxi Fare Prediction (RMSE)](https://www.kaggle.com/c/new-york-city-taxi-fare-prediction)
+- [Corporación Favorita Grocery Sales Forecasting (NWRMSLE)](https://www.kaggle.com/c/favorita-grocery-sales-forecasting)
+- [Zillow Prize: Zillow’s Home Value Prediction (Zestimate)  (MAE)](https://www.kaggle.com/c/zillow-prize-1)
+- [Mercedes-Benz Greener Manufacturing (R^2)](https://www.kaggle.com/c/mercedes-benz-greener-manufacturing)
+- [Allstate Claims Severity (MAE)](https://www.kaggle.com/c/allstate-claims-severity)
+- [How Much Did It Rain? II (MAE)](https://www.kaggle.com/c/how-much-did-it-rain-ii)
+- [Caterpillar Tube Pricing (RMSLE)](https://www.kaggle.com/c/caterpillar-tube-pricing)
+- [Walmart Recruiting II: Sales in Stormy Weather (RMSLE)](https://www.kaggle.com/c/walmart-recruiting-sales-in-stormy-weather)
+- [PUBG Finish Placement Prediction (Kernels Only)  (MAE)](https://www.kaggle.com/c/pubg-finish-placement-prediction)
+- [Grupo Bimbo Inventory Demand (RMSLE)](https://www.kaggle.com/c/grupo-bimbo-inventory-demand)
+- [The Winton Stock Market Challenge (WMAE)](https://www.kaggle.com/c/the-winton-stock-market-challenge)
+- [ECML/PKDD 15: Taxi Trip Time Prediction (II)  (RMSLE)](https://www.kaggle.com/c/pkdd-15-taxi-trip-time-prediction-ii)
+- [Bike Sharing Demand (RMSLE)](https://www.kaggle.com/c/bike-sharing-demand)
+- [Avito Demand Prediction Challenge (RMSE)](https://www.kaggle.com/c/avito-demand-prediction)
 
 ## 1. Kernels and Discussion
 
@@ -70,6 +68,7 @@ List of regression-based competitions:
 - [7 Important Model Evaluation Error Metrics Everyone should know](https://www.analyticsvidhya.com/blog/2016/02/7-important-model-evaluation-error-metrics/)
 - [Medium: How to select the Right Evaluation Metric for Machine Learning Models: Part 1 Regression Metrics](https://towardsdatascience.com/how-to-select-the-right-evaluation-metric-for-machine-learning-models-part-1-regrression-metrics-3606e25beae0)
 - [Machine Learning Mastery: Metrics To Evaluate Machine Learning Algorithms in Python](https://machinelearningmastery.com/metrics-evaluate-machine-learning-algorithms-python/)
+- [Advantages of the mean absolute error (MAE) over the root mean square error (RMSE) in assessing average model performance](http://climate.geog.udel.edu/~climate/publication_html/Pdf/WM_CR_05.pdf)
 
 ### 2e. Model
 
