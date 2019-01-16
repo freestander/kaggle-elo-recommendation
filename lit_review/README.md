@@ -28,6 +28,13 @@ List of regression-based competitions:
 
 ### 1b. Kernels/Discussion in other competitions
 - [* Summary: Winning solutions of kaggle competitions](https://www.kaggle.com/sudalairajkumar/winning-solutions-of-kaggle-competitions)
+- [House Prices: Advanced Regression Techniques: Top 10 (0.10943): stacking, MICE and brutal force](https://www.kaggle.com/agehsbarg/top-10-0-10943-stacking-mice-and-brutal-force)
+- [House Prices: Advanced Regression Techniques: Hybrid SVM Benchmark Approach [0.11180] LB: Top 2%](https://www.kaggle.com/couyang/hybrid-svm-benchmark-approach-0-11180-lb-top-2)
+- [House Prices: Advanced Regression Techniques: Top 2% from Laurenstc on house price prediction](https://www.kaggle.com/hemingwei/top-2-from-laurenstc-on-house-price-prediction)
+- [House Prices: Advanced Regression Techniques: Sharing my approach to motivate more discussions](https://www.kaggle.com/c/house-prices-advanced-regression-techniques/discussion/23409)
+- [House Prices: Advanced Regression Techniques: the secret to making good predictions](https://www.kaggle.com/c/house-prices-advanced-regression-techniques/discussion/32381)
+- [House Prices: Advanced Regression Techniques: Dealing with Missing Data in the Test Dataset](https://www.kaggle.com/c/house-prices-advanced-regression-techniques/discussion/35968)
+- [House Prices: Advanced Regression Techniques: Lessons learned from 1st Kaggle Compeitition](https://www.kaggle.com/c/house-prices-advanced-regression-techniques/discussion/40391)
 - [Santander Value Prediction Challenge: Winner Solution - Giba & Lucasz](https://www.kaggle.com/c/santander-value-prediction-challenge/discussion/65272)
 - [Santander Value Prediction Challenge: 21st place solution (bug fixed) [private: 0.52785]](https://www.kaggle.com/rsakata/21st-place-solution-bug-fixed-private-0-52785)
 - [Santander Value Prediction Challenge: [0.49-PublicLB]Simple_Blend(Private_LB_rank_126th)](https://www.kaggle.com/khahuras/0-49-publiclb-simple-blend-private-lb-rank-126th)
