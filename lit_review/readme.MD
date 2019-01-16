@@ -21,6 +21,20 @@ Competition is regression based. So the following only focuses on regression bas
 - [Sberbank Russian Housing Market: 21st place submission](https://www.kaggle.com/c/sberbank-russian-housing-market/discussion/35570)
 - [Restaurant Revenue Prediction: Winning Solution](https://www.kaggle.com/c/restaurant-revenue-prediction/discussion/14066)
 - [Restaurant Revenue Prediction: Restaurant Revenue - 1st place solution](https://www.kaggle.com/jquesadar/restaurant-revenue-1st-place-solution)
+- [Google Analytics Customer Revenue Prediction: Simple Exploration+Baseline - GA Customer Revenue](https://www.kaggle.com/sudalairajkumar/simple-exploration-baseline-ga-customer-revenue)
+- [Google Analytics Customer Revenue Prediction: Group xgb for Gstore v2](https://www.kaggle.com/kailex/group-xgb-for-gstore-v2)
+- [New York City Taxi Fare Prediction: NYC Taxi Fare - Data Exploration](https://www.kaggle.com/breemen/nyc-taxi-fare-data-exploration)
+- [New York City Taxi Fare Prediction: Python Version of Top Ten Rank R 22 M (2.88)](https://www.kaggle.com/jsylas/python-version-of-top-ten-rank-r-22-m-2-88)
+- [New York City Taxi Fare Prediction: EDA+ Data Cleaning + XG Boost](https://www.kaggle.com/sandeepkumar121995/eda-data-cleaning-xg-boost)
+- [New York City Taxi Fare Prediction: Ideas for Improvement](https://www.kaggle.com/c/new-york-city-taxi-fare-prediction/discussion/62393)
+- [Corporación Favorita Grocery Sales Forecasting: 1st place solution](https://www.kaggle.com/c/favorita-grocery-sales-forecasting/discussion/47582#latest-360306)
+- [Corporación Favorita Grocery Sales Forecasting: 2nd place solution overview](https://www.kaggle.com/c/favorita-grocery-sales-forecasting/discussion/47568)
+- [Corporación Favorita Grocery Sales Forecasting: 3rd place solution overview](https://www.kaggle.com/c/favorita-grocery-sales-forecasting/discussion/47560#latest-302253)
+- [Corporación Favorita Grocery Sales Forecasting: 4th-Place Solution Overview](https://www.kaggle.com/c/favorita-grocery-sales-forecasting/discussion/47529)
+- [Corporación Favorita Grocery Sales Forecasting: 5th Place Solution](https://www.kaggle.com/c/favorita-grocery-sales-forecasting/discussion/47556)
+- [Corporación Favorita Grocery Sales Forecasting: 8th solution](https://www.kaggle.com/c/favorita-grocery-sales-forecasting/discussion/47564)
+- [: ]()
+
 
 
 ## 2. Papers and Hyperlinks
@@ -46,3 +60,5 @@ Competition is regression based. So the following only focuses on regression bas
 
 ## 3. Other stuff
 - [Profiling Top Kagglers: Bestfitting, Currently #1 in the World](http://blog.kaggle.com/2018/05/07/profiling-top-kagglers-bestfitting-currently-1-in-the-world/)
+- [Real Python - Speed Up Your Python Program With Concurrency](https://realpython.com/python-concurrency/)
+- [First Steps with numba](http://numba.pydata.org/numba-doc/0.12.2/tutorial_firststeps.html)
