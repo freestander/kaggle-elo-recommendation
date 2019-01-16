@@ -127,8 +127,10 @@ The `target` value in train data set is normally distrubited with some outliers.
 # Summary
 
 # Reference
-- [Starter EDA + XGBoost of Elo Merchant Data](https://www.kaggle.com/robikscube/starter-eda-xgboost-of-elo-merchant-data)
 - [Simple Exploration Notebook - Elo](https://www.kaggle.com/sudalairajkumar/simple-exploration-notebook-elo)
+- [Starter EDA + XGBoost of Elo Merchant Data](https://www.kaggle.com/robikscube/starter-eda-xgboost-of-elo-merchant-data)
+- [Kaggle Beginner: LGBM Starter](https://www.kaggle.com/bgrad3031/kaggle-beginner-lgbm-starter)
+- [Hyperparameter tuning](https://www.kaggle.com/fabiendaniel/hyperparameter-tuning)
 - [Reducing Memory Footprint](https://www.kaggle.com/rahulahuja010/reducing-memory-footprint)
 - [Reducing memory use of Transactions df by 12x](https://www.kaggle.com/poedator/reducing-memory-use-of-transactions-df-by-12x)
 - [A Tutorial of Model Monotonicity Constraint Using Xgboost](https://xiaoxiaowang87.github.io/monotonicity_constraint/)
