@@ -33,9 +33,7 @@ Competition is regression based. So the following only focuses on regression bas
 - [Corporación Favorita Grocery Sales Forecasting: 4th-Place Solution Overview](https://www.kaggle.com/c/favorita-grocery-sales-forecasting/discussion/47529)
 - [Corporación Favorita Grocery Sales Forecasting: 5th Place Solution](https://www.kaggle.com/c/favorita-grocery-sales-forecasting/discussion/47556)
 - [Corporación Favorita Grocery Sales Forecasting: 8th solution](https://www.kaggle.com/c/favorita-grocery-sales-forecasting/discussion/47564)
-- [: ]()
-
-
+- [Kaggle Avito Demand Prediction Challenge: Analysis of Winning Submissions](http://mlexplained.com/2018/08/18/kaggle-avito-demand-prediction-challenge-analysis-of-winning-submissions/)
 
 ## 2. Papers and Hyperlinks
 
