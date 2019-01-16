@@ -2,9 +2,20 @@
 
 Competition is regression based. So the following only focuses on regression based reference.
 
-## 1. Kernels
+## 1. Kernels and Discussion
 
-### 1a. 
+### 1a. Kernels/Discussion in the competition
+- [Combining your model with a model without outlier](https://www.kaggle.com/waitingli/combining-your-model-with-a-model-without-outlier)
+- [LIghtGBM (GBDT + RF) Baysian Ridge Reg:[LB 3.61]](https://www.kaggle.com/ashishpatel26/lightgbm-gbdt-rf-baysian-ridge-reg-lb-3-61)
+
+### 1b. Kernels/Discussion in other competitions
+- [Santander Value Prediction Challenge: Winner Solution - Giba & Lucasz](https://www.kaggle.com/c/santander-value-prediction-challenge/discussion/65272)
+- [Santander Value Prediction Challenge: 21st place solution (bug fixed) [private: 0.52785]](https://www.kaggle.com/rsakata/21st-place-solution-bug-fixed-private-0-52785)
+- [Santander Value Prediction Challenge: [0.49-PublicLB]Simple_Blend(Private_LB_rank_126th)](https://www.kaggle.com/khahuras/0-49-publiclb-simple-blend-private-lb-rank-126th)
+- [Santander Value Prediction Challenge: 5 place mini write-up](https://www.kaggle.com/c/santander-value-prediction-challenge/discussion/63822)
+- [Santander Value Prediction Challenge: 2nd place solution overview](https://www.kaggle.com/c/santander-value-prediction-challenge/discussion/63848)
+- [Santander Value Prediction Challenge: ]()
+
 
 ## 2. Papers and Hyperlinks
 
@@ -15,7 +26,10 @@ Competition is regression based. So the following only focuses on regression bas
 ### 2c. Feature Selection
 
 ### 2d. Performance Measures
-- [compare](https://people.duke.edu/~rnau/compare.htm)
+- [Duke: What's the bottom line? How to compare models](https://people.duke.edu/~rnau/compare.htm)
+- [7 Important Model Evaluation Error Metrics Everyone should know](https://www.analyticsvidhya.com/blog/2016/02/7-important-model-evaluation-error-metrics/)
+- [Medium: How to select the Right Evaluation Metric for Machine Learning Models: Part 1 Regression Metrics](https://towardsdatascience.com/how-to-select-the-right-evaluation-metric-for-machine-learning-models-part-1-regrression-metrics-3606e25beae0)
+- [Machine Learning Mastery: Metrics To Evaluate Machine Learning Algorithms in Python](https://machinelearningmastery.com/metrics-evaluate-machine-learning-algorithms-python/)
 
 ### 2e. Model
 
