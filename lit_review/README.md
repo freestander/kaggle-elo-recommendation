@@ -212,7 +212,31 @@ List of regression-based competitions:
 - [Real Python - Speed Up Your Python Program With Concurrency](https://realpython.com/python-concurrency/)
 - [First Steps with numba](http://numba.pydata.org/numba-doc/0.12.2/tutorial_firststeps.html)
 
-## 3. Other stuff
+## 3. Domain Knowledge
+
+### 7 reasons to view analytics provided by a credit card payment processor
+- [Link](https://www.vantiv.com/vantage-point/smarter-payments/credit-card-processing-analytics)
+- Summary:
+   - **Understand your customers’ behavior**
+   - Personalize offering based on data results
+   - Use trends and patterns to get new customers
+   - Benchmark your information against the competition
+   - Uncover suspicious activity
+   - Reduce chargebacks
+   - Determine how to make improvements in the overall business
+
+### How Retailers Can Use Data Analytics
+to Revitalize Customer Loyalty Programs
+- [Link](https://strategywise.com/retail-analytics-the-rise-of-big-data-in-customer-loyalty-programs/)
+- Summary: 
+   - **Identify and Recognize the Best Customers**
+   - Increase Retention, Reduce Attrition
+   - Targeted Product Recommendations
+   - Well-Timed Promotions
+   - Personalize Loyalty Rewards
+   - Determine the Effectiveness of a Loyalty Program
+   
+## 4. Other stuff
 - [Profiling Top Kagglers: Bestfitting, Currently #1 in the World](http://blog.kaggle.com/2018/05/07/profiling-top-kagglers-bestfitting-currently-1-in-the-world/)
 - [How to Win Kaggle Competitions](https://www.kaggle.com/getting-started/44997)
 - [Medium: “Data Science A-Z from Zero to Kaggle Kernels Master”](https://towardsdatascience.com/data-science-from-zero-to-kaggle-kernels-master-f9115eadbb3)
