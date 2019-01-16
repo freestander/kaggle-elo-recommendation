@@ -7,6 +7,7 @@ Competition is regression based. So the following only focuses on regression bas
 ### 1a. Kernels/Discussion in the competition
 - [Elo Merchant Category Recommendation: Combining your model with a model without outlier](https://www.kaggle.com/waitingli/combining-your-model-with-a-model-without-outlier)
 - [Elo Merchant Category Recommendation: LIghtGBM (GBDT + RF) Baysian Ridge Reg:[LB 3.61]](https://www.kaggle.com/ashishpatel26/lightgbm-gbdt-rf-baysian-ridge-reg-lb-3-61)
+- [Elo Merchant Category Recommendation: Sharing of my experience so far](https://www.kaggle.com/c/elo-merchant-category-recommendation/discussion/75935)
 
 ### 1b. Kernels/Discussion in other competitions
 - [Santander Value Prediction Challenge: Winner Solution - Giba & Lucasz](https://www.kaggle.com/c/santander-value-prediction-challenge/discussion/65272)
