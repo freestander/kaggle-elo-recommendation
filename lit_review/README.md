@@ -71,7 +71,7 @@ List of regression-based competitions:
    - Manual generate one feature of total area since it is important for determining house prices
    - Check skewness of features and apply box-cox transformation of (highly
    - Scale features using statistics that are robust to outliers using [RobustScaler](https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.RobustScaler.html)
-   - **[Stacking]**(http://blog.kaggle.com/2017/06/15/stacking-made-easy-an-introduction-to-stacknet-by-competitions-grandmaster-marios-michailidis-kazanova/) can mean 1) taking average of the predictions and 2) using the predicted target as feature and train another meta-model fo prediction
+   - [**Stacking**](http://blog.kaggle.com/2017/06/15/stacking-made-easy-an-introduction-to-stacknet-by-competitions-grandmaster-marios-michailidis-kazanova/) can mean 1) taking average of the predictions and 2) using the predicted target as feature and train another meta-model fo prediction
 - [Regularized Linear Models](https://www.kaggle.com/apapiu/regularized-linear-models) <br/>
    - Plot the validation plot of rmse against alpha - good plot
    - Plot feature importance 
