@@ -30,11 +30,15 @@ List of regression-based competitions:
    - Build a training model without outlier, another model to evaluate likelihood of and to classify outliers, get rid of the outliers with top 10% likelihood and combine submission
 - [Elo Merchant Category Recommendation: LIghtGBM (GBDT + RF) Baysian Ridge Reg: LB 3.61](https://www.kaggle.com/ashishpatel26/lightgbm-gbdt-rf-baysian-ridge-reg-lb-3-61) <br/>
    - good script on reducing memory usage
-- [Elo Merchant Category Recommendation: Sharing of my experience so far](https://www.kaggle.com/c/elo-merchant-category-recommendation/discussion/75935) <br/>
-   - a
-   - a
+   - good script on generating features - count, sum, mean, min, max, std
+   - good illustration on feature importance
+   - good use of `n_repeats` during CV
+   - stacking using `BayesianRidge()`
 - [Elo world](https://www.kaggle.com/fabiendaniel/elo-world)
    - a
+   - a
+   - a
+- [Elo Merchant Category Recommendation: Sharing of my experience so far](https://www.kaggle.com/c/elo-merchant-category-recommendation/discussion/75935) <br/>
    - a
    - a
 ### 1b. Kernels/Discussion in other competitions
