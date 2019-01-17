@@ -62,7 +62,19 @@ List of regression-based competitions:
    - Plot target distribution (peakedness and +ve skewness)
    - Log transformation for zero values ([Ref](https://discuss.analyticsvidhya.com/t/methods-to-deal-with-zero-values-while-performing-log-transformation-of-variable/2431))
    - Check homoscedasticity (conic shape in scatter plots between target and feat)
-   - 
+- [Stacked Regressions : Top 4% on LeaderBoard](https://www.kaggle.com/serigne/stacked-regressions-top-4-on-leaderboard) <br/>
+   - Manual remove two extreme outliers by visual inspection
+   - Plot target distribution and QQ-plot and apply log-transformation
+   - Good graph on showing missing data by sorted percentage 
+   - Check what N/A means for each feature and handle accordingly (fill N/A with "None", median value, etc.)
+   - Transform numerical variables that are really categorical
+   - Manual generate one feature of total area since it is important for determining house prices
+   - Check skewness of features and apply box-cox transformation of (highly
+   - Scale features using statistics that are robust to outliers using [RobustScaler](https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.RobustScaler.html)
+   - **[Stacking]**(http://blog.kaggle.com/2017/06/15/stacking-made-easy-an-introduction-to-stacknet-by-competitions-grandmaster-marios-michailidis-kazanova/) can mean 1) taking average of the predictions and 2) using the predicted target as feature and train another meta-model fo prediction
+- [Regularized Linear Models](https://www.kaggle.com/apapiu/regularized-linear-models) <br/>
+   - Plot the validation plot of rmse against alpha - good plot
+   - Plot feature importance 
    
 #### New York City Taxi Fare Prediction (RMSE)
 - [NYC Taxi Fare - Data Exploration](https://www.kaggle.com/breemen/nyc-taxi-fare-data-exploration)
@@ -207,7 +219,10 @@ List of regression-based competitions:
 
 ## 2. Papers and Hyperlinks
 
-### 2a. EDA
+### 2a. EDA and Preprocessing
+- [Log-transformation and its implications for data analysis](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4120293/)
+- [Box-Cox Transformations](http://onlinestatbook.com/2/transformations/box-cox.html)
+- [SciPy: boxcox1p function](https://docs.scipy.org/doc/scipy-0.19.0/reference/generated/scipy.special.boxcox1p.html)
 
 ### 2b. Feature Generation
 
@@ -277,4 +292,4 @@ to Revitalize Customer Loyalty Programs
 - [threecourse on bitbucket: Past Competitions and Solutions](https://bitbucket.org/threecourse/kaggle-wiki/wiki/Past%20Competitions%20and%20Solutions%20(-%20June%202016))
 - [Summary: Winning solutions of kaggle competitions](https://www.kaggle.com/sudalairajkumar/winning-solutions-of-kaggle-competitions)
 - [Kaggle Past Solutions](https://ndres.me/kaggle-past-solutions/)
-- [Good book: Multivariate Data Analysis](https://www.amazon.com/Multivariate-Data-Analysis-Joseph-Hair/dp/9332536503/ref=as_sl_pc_tf_til?tag=pmarcelino-20&linkCode=w00&linkId=5e9109fa2213fef911dae80731a07a17&creativeASIN=9332536503)
+- [Good book: Multivariate Data Analysis](https://is.muni.cz/el/1423/podzim2017/PSY028/um/_Hair_-_Multivariate_data_analysis_7th_revised.pdf)
