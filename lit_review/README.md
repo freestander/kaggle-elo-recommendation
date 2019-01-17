@@ -26,9 +26,15 @@ List of regression-based competitions:
 ## 1. Kernels and Discussion
 
 ### 1a. Kernels/Discussion in the competition
-- [Elo Merchant Category Recommendation: Combining your model with a model without outlier](https://www.kaggle.com/waitingli/combining-your-model-with-a-model-without-outlier)
-- [Elo Merchant Category Recommendation: LIghtGBM (GBDT + RF) Baysian Ridge Reg:[LB 3.61]](https://www.kaggle.com/ashishpatel26/lightgbm-gbdt-rf-baysian-ridge-reg-lb-3-61)
-- [Elo Merchant Category Recommendation: Sharing of my experience so far](https://www.kaggle.com/c/elo-merchant-category-recommendation/discussion/75935)
+- [Elo Merchant Category Recommendation: Combining your model with a model without outlier](https://www.kaggle.com/waitingli/combining-your-model-with-a-model-without-outlier) <br/>
+   - Build a training model without outlier, another model to evaluate likelihood of and to classify outliers, get rid of the outliers with top 10% likelihood and combine submission
+   - 
+- [Elo Merchant Category Recommendation: LIghtGBM (GBDT + RF) Baysian Ridge Reg:[LB 3.61]](https://www.kaggle.com/ashishpatel26/lightgbm-gbdt-rf-baysian-ridge-reg-lb-3-61) <br/>
+   - 
+   - 
+- [Elo Merchant Category Recommendation: Sharing of my experience so far](https://www.kaggle.com/c/elo-merchant-category-recommendation/discussion/75935) <br/>
+   - 
+   - 
 
 ### 1b. Kernels/Discussion in other competitions
 
