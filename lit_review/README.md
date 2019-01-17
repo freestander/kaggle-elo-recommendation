@@ -40,7 +40,30 @@ List of regression-based competitions:
 - [the secret to making good predictions](https://www.kaggle.com/c/house-prices-advanced-regression-techniques/discussion/32381)
 - [Dealing with Missing Data in the Test Dataset](https://www.kaggle.com/c/house-prices-advanced-regression-techniques/discussion/35968)
 - [Lessons learned from 1st Kaggle Compeitition](https://www.kaggle.com/c/house-prices-advanced-regression-techniques/discussion/40391)
-
+- [A study on Regression applied to the Ames dataset](https://www.kaggle.com/juliencs/a-study-on-regression-applied-to-the-ames-dataset) <br/>
+   - Manual remove two extreme outliers by visual inspection
+   - Add interaction terms
+   - Create polynomial features (for numerical features)
+   - Replace missing values for numerical features by using median as replacement
+   - Log transform of the skewed numerical features to lessen impact of outliers
+   - Create dummy features for N/A values with one-hot features
+   - Standardize features (StandardScaler)
+   - Plot residuals and coefficients/importance in the model
+   - Two layers of parameter tuning - a big grid, and then a finer grid
+- [Comprehensive data exploration with Python](https://www.kaggle.com/pmarcelino/comprehensive-data-exploration-with-python) <br/>
+   - Steps: 1) Understand problem 2) Univariable study 3) Multivarate study 4) Basic cleaning 5) Test assumptions
+   - Check distribution of target (+ve skewness and peakedness)
+   - Check relationship between categorical variables and target
+   - Check relationship between numerical variables and target
+   - Plot correlation map to check **multicollinearity**
+   - Plot scatter plots between features and target
+   - Good way to display missing data situation
+   - Good way to handle outlier (univariate and mulitvariate)
+   - Plot target distribution (peakedness and +ve skewness)
+   - Log transformation for zero values ([Ref](https://discuss.analyticsvidhya.com/t/methods-to-deal-with-zero-values-while-performing-log-transformation-of-variable/2431))
+   - Check homoscedasticity (conic shape in scatter plots between target and feat)
+   - 
+   
 #### New York City Taxi Fare Prediction (RMSE)
 - [NYC Taxi Fare - Data Exploration](https://www.kaggle.com/breemen/nyc-taxi-fare-data-exploration)
 - [Python Version of Top Ten Rank R 22 M (2.88)](https://www.kaggle.com/jsylas/python-version-of-top-ten-rank-r-22-m-2-88)
@@ -254,3 +277,4 @@ to Revitalize Customer Loyalty Programs
 - [threecourse on bitbucket: Past Competitions and Solutions](https://bitbucket.org/threecourse/kaggle-wiki/wiki/Past%20Competitions%20and%20Solutions%20(-%20June%202016))
 - [Summary: Winning solutions of kaggle competitions](https://www.kaggle.com/sudalairajkumar/winning-solutions-of-kaggle-competitions)
 - [Kaggle Past Solutions](https://ndres.me/kaggle-past-solutions/)
+- [Good book: Multivariate Data Analysis](https://www.amazon.com/Multivariate-Data-Analysis-Joseph-Hair/dp/9332536503/ref=as_sl_pc_tf_til?tag=pmarcelino-20&linkCode=w00&linkId=5e9109fa2213fef911dae80731a07a17&creativeASIN=9332536503)
