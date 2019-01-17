@@ -36,10 +36,21 @@ List of regression-based competitions:
 - [Top 10 (0.10943): stacking, MICE and brutal force](https://www.kaggle.com/agehsbarg/top-10-0-10943-stacking-mice-and-brutal-force)
 - [Hybrid SVM Benchmark Approach [0.11180] LB: Top 2%](https://www.kaggle.com/couyang/hybrid-svm-benchmark-approach-0-11180-lb-top-2)
 - [Top 2% from Laurenstc on house price prediction](https://www.kaggle.com/hemingwei/top-2-from-laurenstc-on-house-price-prediction)
-- [Sharing my approach to motivate more discussions](https://www.kaggle.com/c/house-prices-advanced-regression-techniques/discussion/23409)
-- [the secret to making good predictions](https://www.kaggle.com/c/house-prices-advanced-regression-techniques/discussion/32381)
-- [Dealing with Missing Data in the Test Dataset](https://www.kaggle.com/c/house-prices-advanced-regression-techniques/discussion/35968)
-- [Lessons learned from 1st Kaggle Compeitition](https://www.kaggle.com/c/house-prices-advanced-regression-techniques/discussion/40391)
+- [Sharing my approach to motivate more discussions](https://www.kaggle.com/c/house-prices-advanced-regression-techniques/discussion/23409) <br/>
+   - Models tuned by Bayesian optimization (script is [here](https://www.kaggle.com/tilii7/svr-sparse-matrix-bayesian-optimization) and [here](https://www.kaggle.com/tilii7/krr-sparse-matrix-bayesian-optimization))
+   - Can try kernel ridge regression
+   - Can try **outlier test in the scipy statsmodels package** (with 0.99 confidence level / [ref 1](https://stackoverflow.com/questions/10231206/can-scipy-stats-identify-and-mask-obvious-outliers), [ref 2](https://quantoid.net/files/702/lecture9.pdf)) 
+- [the secret to making good predictions](https://www.kaggle.com/c/house-prices-advanced-regression-techniques/discussion/32381) <br/>
+   - it simply suggests ensemble/stacking
+- [Dealing with Missing Data in the Test Dataset](https://www.kaggle.com/c/house-prices-advanced-regression-techniques/discussion/35968) <br/>
+   - can try missing value imputation (MVI)
+- [Lessons learned from 1st Kaggle Compeitition](https://www.kaggle.com/c/house-prices-advanced-regression-techniques/discussion/40391) <br/>
+   - Instead of using mean/median, may replace with all 0s or individually examine each NaN for an appropriate substitute
+   - Feature selection: methods not clear though
+   - Log transform target and unskew features
+   - Feature normalization not so good indeed
+   - Optimizing hyperparameters proved easy when using CV
+   - [Related script](https://www.kaggle.com/nottold/naive-ensemble-model-ridge-lasso): Code is very structured
 - [A study on Regression applied to the Ames dataset](https://www.kaggle.com/juliencs/a-study-on-regression-applied-to-the-ames-dataset) <br/>
    - Manual remove two extreme outliers by visual inspection
    - Add interaction terms
@@ -244,6 +255,7 @@ List of regression-based competitions:
 - [XGBoost — Model to win Kaggle](https://medium.com/@gautam.karmakar/xgboost-model-to-win-kaggle-e12b35cd1aad)
 
 ### 2g. Ensemble
+- [Kaggle Ensembling Guide](https://mlwave.com/kaggle-ensembling-guide/)
 
 ### 2h. Computational Performance
 - [How to Work with BIG Datasets on Kaggle Kernels (16G RAM)](https://www.kaggle.com/yuliagm/how-to-work-with-big-datasets-on-16g-ram-dask)
