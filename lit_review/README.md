@@ -33,9 +33,26 @@ List of regression-based competitions:
 ### 1b. Kernels/Discussion in other competitions
 
 #### House Prices: Advanced Regression Techniques (RMSE)
-- [Top 10 (0.10943): stacking, MICE and brutal force](https://www.kaggle.com/agehsbarg/top-10-0-10943-stacking-mice-and-brutal-force)
-- [Hybrid SVM Benchmark Approach [0.11180] LB: Top 2%](https://www.kaggle.com/couyang/hybrid-svm-benchmark-approach-0-11180-lb-top-2)
-- [Top 2% from Laurenstc on house price prediction](https://www.kaggle.com/hemingwei/top-2-from-laurenstc-on-house-price-prediction)
+- [All You Need is PCA (LB: 0.11421, top 4%)](https://www.kaggle.com/massquantity/all-you-need-is-pca-lb-0-11421-top-4) <br/>
+   - "year" is regarded as categorical but not numerical features
+   - Good table on showing mean, median and count using groupby
+   - Using pandas.qcut to discretize the continuous feature to 10 parts
+- [Top 10 (0.10943): stacking, MICE and brutal force](https://www.kaggle.com/agehsbarg/top-10-0-10943-stacking-mice-and-brutal-force) </br>
+   - **I spent a lot of time and submissions to fine-tune parameters (best improvement was by tuning min_samples_leaf and min_samples_split for GradientBoostingRegressor)**
+   - Very good script, important
+   - Very simple method of handling missing data turns out to be great
+   - The author plotted the predictions and investigated further - It was obvious from that picture that for small final predictions we are overestimating sales, for big values of predictions we are underestimating.
+   - Used 30-fold CV
+   - Good code of manually converting numerical features to categorical (or other way round)
+   - **Got function to add log and squared features conveniently**
+   - 
+- [Hybrid SVM Benchmark Approach [0.11180] LB: Top 2%](https://www.kaggle.com/couyang/hybrid-svm-benchmark-approach-0-11180-lb-top-2) <br/>
+   - Kernel written in R
+- [Top 2% from Laurenstc on house price prediction](https://www.kaggle.com/hemingwei/top-2-from-laurenstc-on-house-price-prediction) <br/>
+   - Explanation is not clear in this kernel
+   - Generate new features such as Total_Bathroom = FullBath + 0.5 * HalfBath
+   - Simplify features by making them categorical
+   - 
 - [Sharing my approach to motivate more discussions](https://www.kaggle.com/c/house-prices-advanced-regression-techniques/discussion/23409) <br/>
    - Models tuned by Bayesian optimization (script is [here](https://www.kaggle.com/tilii7/svr-sparse-matrix-bayesian-optimization) and [here](https://www.kaggle.com/tilii7/krr-sparse-matrix-bayesian-optimization))
    - Can try kernel ridge regression
