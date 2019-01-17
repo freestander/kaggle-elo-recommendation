@@ -120,7 +120,18 @@ The `target` value in train data set is normally distrubited with some outliers.
 
 # Parameter Tuning and Model Evaluation
 - LightGBM
+  - Number of boosting rounds 78
+  - Training RMSE: 3.683741055517894
+  - Testing RMSE: 3.814559724766949
+
+![first active month in train](./images/lgb_result.png)
+
 - XGBoost
+  - Number of boosting rounds 53
+  - Training RMSE: 3.678583
+  - Testing RMSE: 3.817532
+
+![first active month in train](./images/xgb_result.png)
 
 # Model Selection and Ensemble
 
