@@ -35,12 +35,15 @@ List of regression-based competitions:
    - good use of `n_repeats` during CV
    - stacking using `BayesianRidge()`
 - [Elo world](https://www.kaggle.com/fabiendaniel/elo-world)
-   - a
-   - a
-   - a
+   - Manual features: month_diff
+   - Good script of generating features
+   - [numpy.ptp](https://docs.scipy.org/doc/numpy-1.15.0/reference/generated/numpy.ptp.html) for finding date range
 - [Elo Merchant Category Recommendation: Sharing of my experience so far](https://www.kaggle.com/c/elo-merchant-category-recommendation/discussion/75935) <br/>
-   - a
-   - a
+   - Feature engineering
+   - Feature selection
+   - Get your basics right
+   - Think "out-of-box"
+   - Manage your code
 ### 1b. Kernels/Discussion in other competitions
 
 #### House Prices: Advanced Regression Techniques (RMSE)
@@ -114,7 +117,12 @@ List of regression-based competitions:
    - Plot feature importance 
    
 #### New York City Taxi Fare Prediction (RMSE)
-- [NYC Taxi Fare - Data Exploration](https://www.kaggle.com/breemen/nyc-taxi-fare-data-exploration)
+- [NYC Taxi Fare - Data Exploration](https://www.kaggle.com/breemen/nyc-taxi-fare-data-exploration) <br/>
+   - eliminate data points with negative `fare_amount`
+   - plot the target distribution (fare) and is similar to our situation of having outliers
+   - Removing datapoints in water
+   - Very nice map visualization
+   - 
 - [Python Version of Top Ten Rank R 22 M (2.88)](https://www.kaggle.com/jsylas/python-version-of-top-ten-rank-r-22-m-2-88)
 - [EDA+ Data Cleaning + XG Boost](https://www.kaggle.com/sandeepkumar121995/eda-data-cleaning-xg-boost)
 - [Ideas for Improvement](https://www.kaggle.com/c/new-york-city-taxi-fare-prediction/discussion/62393)
