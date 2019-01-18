@@ -44,6 +44,7 @@ List of regression-based competitions:
    - Get your basics right
    - Think "out-of-box"
    - Manage your code
+   
 ### 1b. Kernels/Discussion in other competitions
 
 #### House Prices: Advanced Regression Techniques (RMSE)
@@ -118,14 +119,32 @@ List of regression-based competitions:
    
 #### New York City Taxi Fare Prediction (RMSE)
 - [NYC Taxi Fare - Data Exploration](https://www.kaggle.com/breemen/nyc-taxi-fare-data-exploration) <br/>
+   - **Extremely nice analysis**
    - eliminate data points with negative `fare_amount`
    - plot the target distribution (fare) and is similar to our situation of having outliers
    - Removing datapoints in water
    - Very nice map visualization
-   - 
-- [Python Version of Top Ten Rank R 22 M (2.88)](https://www.kaggle.com/jsylas/python-version-of-top-ten-rank-r-22-m-2-88)
-- [EDA+ Data Cleaning + XG Boost](https://www.kaggle.com/sandeepkumar121995/eda-data-cleaning-xg-boost)
+   - **You always need to have some basic 'intuition' and you test/verify it through histogram**
+   - Thoroughly investigate different situations (e.g. >50 miles with low fare, 0 distance with a non-zero fare)
+   - Use of colormap `cmap='viridis'`
+   - **Very nice plot of RMSE training vs RMSE testing**
+      <p align="center">  <img src="https://www.kaggleusercontent.com/kf/5341553/eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2In0..Z_MRedhM90aK4dmq4j6dww.IGiboOD8qJ8Wch0ARK9p_wrHvKbXO_GYuPp-1OJYjVayWA7O6Y59h0o3MIFNRNxaoaP2d3UGe-6PvvQiIA2xKSjpETl7LROoEixo7sfNWBYfRwXpNfNhY5y1zVDWiO_Jlm-w6t4yLM2IDMik-MdEU53Y1MbKO95jduF2-iYJOiw.lN2RKkCIndk-6ZZTbWkOaA/__results___files/__results___107_1.png" width="400">  </p>
+- [Python Version of Top Ten Rank R 22 M (2.88)](https://www.kaggle.com/jsylas/python-version-of-top-ten-rank-r-22-m-2-88) <br/>
+   - Clean outlier (fare < 0, fare > 500)
+   - Use haversine distance to calculate distance between two points on earth
+   - Not sure what bearing distance is
+   - Use lightgbm
+- [EDA+ Data Cleaning + XG Boost](https://www.kaggle.com/sandeepkumar121995/eda-data-cleaning-xg-boost) <br/>
+   - notice maximum passenger count is 208 - odd
+   - use correlation to evaluate relationship between fare amount and passenger count
+   - drop 527 observations where fare amount is higher than 100 dollars and distance covered is less than 1 miles
+   - use xgboost and plot feature importance (plot not good looking though)
 - [Ideas for Improvement](https://www.kaggle.com/c/new-york-city-taxi-fare-prediction/discussion/62393)
+   - Use more columns from the input data. Try to see if the other columns -- pickup_datetime and passenger_count -- can help improve your results.
+   - Use a non-linear model to capture more intricacies within the data.
+   - Try to find more outliers to prune, or construct useful **[feature crosses](https://developers.google.com/machine-learning/crash-course/feature-crosses/encoding-nonlinearity)**.
+   - Use the entire dataset -- most we're only using about 20% of the training data!
+   - Use **Dask** package for data analysis
 
 #### Corporación Favorita Grocery Sales Forecasting (NWRMSLE)
 - [1st place solution](https://www.kaggle.com/c/favorita-grocery-sales-forecasting/discussion/47582#latest-360306)
