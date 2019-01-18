@@ -145,6 +145,8 @@ List of regression-based competitions:
    - Try to find more outliers to prune, or construct useful **[feature crosses](https://developers.google.com/machine-learning/crash-course/feature-crosses/encoding-nonlinearity)**.
    - Use the entire dataset -- most we're only using about 20% of the training data!
    - Use **Dask** package for data analysis
+- [Machine Learning to Predict Taxi Fare — Part One : Exploratory Analysis](https://medium.com/analytics-vidhya/machine-learning-to-predict-taxi-fare-part-one-exploratory-analysis-6b7e6b1fbc78)
+- [Machine Learning to Predict Taxi Fare — Part Two: Predictive Modelling](https://medium.com/analytics-vidhya/machine-learning-to-predict-taxi-fare-part-two-predictive-modelling-f80461a8072e)
 
 #### Corporación Favorita Grocery Sales Forecasting (NWRMSLE)
 - [1st place solution](https://www.kaggle.com/c/favorita-grocery-sales-forecasting/discussion/47582#latest-360306)
