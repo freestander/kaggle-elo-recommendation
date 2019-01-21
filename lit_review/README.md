@@ -149,6 +149,7 @@ List of regression-based competitions:
 - [Machine Learning to Predict Taxi Fare — Part Two: Predictive Modelling](https://medium.com/analytics-vidhya/machine-learning-to-predict-taxi-fare-part-two-predictive-modelling-f80461a8072e)
 
 #### Corporación Favorita Grocery Sales Forecasting (NWRMSLE)
+- [Shopping for Insights - Favorita EDA](https://www.kaggle.com/headsortails/shopping-for-insights-favorita-eda)
 - [1st place solution](https://www.kaggle.com/c/favorita-grocery-sales-forecasting/discussion/47582#latest-360306)
 - [2nd place solution overview](https://www.kaggle.com/c/favorita-grocery-sales-forecasting/discussion/47568)
 - [3rd place solution overview](https://www.kaggle.com/c/favorita-grocery-sales-forecasting/discussion/47560#latest-302253)
