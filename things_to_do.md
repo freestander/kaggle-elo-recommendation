@@ -1,7 +1,8 @@
 # Things to do
 
 - Outlier (Very very very important)
-- Feature
+- Feature generation
+- [Feature extraction](https://www.kaggle.com/c/elo-merchant-category-recommendation/discussion/73937)
 - Missing value / NaN value
 - Para tuning
 - Ensemble
