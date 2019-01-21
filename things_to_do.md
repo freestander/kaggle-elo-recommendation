@@ -6,3 +6,4 @@
 - Para tuning
 - Ensemble
 - Error analysis: find out data points with large error values and see why they perform badly
+- [Check external data / Data leak](https://www.kaggle.com/c/elo-merchant-category-recommendation/discussion/72958)
