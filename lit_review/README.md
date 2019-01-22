@@ -145,17 +145,42 @@ List of regression-based competitions:
    - Try to find more outliers to prune, or construct useful **[feature crosses](https://developers.google.com/machine-learning/crash-course/feature-crosses/encoding-nonlinearity)**.
    - Use the entire dataset -- most we're only using about 20% of the training data!
    - Use **Dask** package for data analysis
-- [Machine Learning to Predict Taxi Fare — Part One : Exploratory Analysis](https://medium.com/analytics-vidhya/machine-learning-to-predict-taxi-fare-part-one-exploratory-analysis-6b7e6b1fbc78)
-- [Machine Learning to Predict Taxi Fare — Part Two: Predictive Modelling](https://medium.com/analytics-vidhya/machine-learning-to-predict-taxi-fare-part-two-predictive-modelling-f80461a8072e)
+- [Machine Learning to Predict Taxi Fare — Part One : Exploratory Analysis](https://medium.com/analytics-vidhya/machine-learning-to-predict-taxi-fare-part-one-exploratory-analysis-6b7e6b1fbc78) <br/>
+   - Nice EDA (code available)
+- [Machine Learning to Predict Taxi Fare — Part Two: Predictive Modelling](https://medium.com/analytics-vidhya/machine-learning-to-predict-taxi-fare-part-two-predictive-modelling-f80461a8072e) <br/>
+   - Basic script for modeling (not so helpful)
+
 
 #### Corporación Favorita Grocery Sales Forecasting (NWRMSLE)
-- [Shopping for Insights - Favorita EDA](https://www.kaggle.com/headsortails/shopping-for-insights-favorita-eda)
-- [1st place solution](https://www.kaggle.com/c/favorita-grocery-sales-forecasting/discussion/47582#latest-360306)
-- [2nd place solution overview](https://www.kaggle.com/c/favorita-grocery-sales-forecasting/discussion/47568)
-- [3rd place solution overview](https://www.kaggle.com/c/favorita-grocery-sales-forecasting/discussion/47560#latest-302253)
-- [4th-Place Solution Overview](https://www.kaggle.com/c/favorita-grocery-sales-forecasting/discussion/47529)
-- [5th Place Solution](https://www.kaggle.com/c/favorita-grocery-sales-forecasting/discussion/47556)
-- [8th solution](https://www.kaggle.com/c/favorita-grocery-sales-forecasting/discussion/47564)
+- [Shopping for Insights - Favorita EDA](https://www.kaggle.com/headsortails/shopping-for-insights-favorita-eda) <br/>
+   - Script written in R, not so helpful
+   - Can try plotting tree map
+   <p align="center">  <img src="https://www.kaggleusercontent.com/kf/9583080/eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2In0..DXUaSVQvbX0QmGslvWwqUA.iYYrtQoqcFoVJYrVKyqHijYvJGVQfxU95WA4swRyU67T6qLz-iha_V4mvvpg_3RUjelSPjj7P5zfGoMmew03XbBnUGsvKwlhwFsLPZobCg_FfsXhu8nIsHC_n3gs19q2G8nYm_V6CgFea0i4wf-YBzvAvCKdaGX8pFe05gYPmJs.hmohTTGzus5zXQchgrfBmA/__results___files/figure-html/unnamed-chunk-28-1.png" width="400">  </p>
+   - Good illustration on time series forecast - split of training/testing data
+   <p align="center">  <img src="https://www.kaggleusercontent.com/kf/9583080/eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2In0..DXUaSVQvbX0QmGslvWwqUA.iYYrtQoqcFoVJYrVKyqHijYvJGVQfxU95WA4swRyU67T6qLz-iha_V4mvvpg_3RUjelSPjj7P5zfGoMmew03XbBnUGsvKwlhwFsLPZobCg_FfsXhu8nIsHC_n3gs19q2G8nYm_V6CgFea0i4wf-YBzvAvCKdaGX8pFe05gYPmJs.hmohTTGzus5zXQchgrfBmA/__results___files/figure-html/unnamed-chunk-35-1.png" width="400">  </p>
+   - Unbinned curve is good
+   <p align="center">  <img src="https://www.kaggleusercontent.com/kf/9583080/eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2In0..DXUaSVQvbX0QmGslvWwqUA.iYYrtQoqcFoVJYrVKyqHijYvJGVQfxU95WA4swRyU67T6qLz-iha_V4mvvpg_3RUjelSPjj7P5zfGoMmew03XbBnUGsvKwlhwFsLPZobCg_FfsXhu8nIsHC_n3gs19q2G8nYm_V6CgFea0i4wf-YBzvAvCKdaGX8pFe05gYPmJs.hmohTTGzus5zXQchgrfBmA/__results___files/figure-html/unnamed-chunk-52-1.png" width="400">  </p>
+   - Scatter cloud is good
+   <p align="center">  <img src="https://www.kaggleusercontent.com/kf/9583080/eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2In0..DXUaSVQvbX0QmGslvWwqUA.iYYrtQoqcFoVJYrVKyqHijYvJGVQfxU95WA4swRyU67T6qLz-iha_V4mvvpg_3RUjelSPjj7P5zfGoMmew03XbBnUGsvKwlhwFsLPZobCg_FfsXhu8nIsHC_n3gs19q2G8nYm_V6CgFea0i4wf-YBzvAvCKdaGX8pFe05gYPmJs.hmohTTGzus5zXQchgrfBmA/__results___files/figure-html/unnamed-chunk-56-1.png" width="400">  </p>
+   - Ridgeline plot is good
+   <p align="center">  <img src="https://www.kaggleusercontent.com/kf/9583080/eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2In0..DXUaSVQvbX0QmGslvWwqUA.iYYrtQoqcFoVJYrVKyqHijYvJGVQfxU95WA4swRyU67T6qLz-iha_V4mvvpg_3RUjelSPjj7P5zfGoMmew03XbBnUGsvKwlhwFsLPZobCg_FfsXhu8nIsHC_n3gs19q2G8nYm_V6CgFea0i4wf-YBzvAvCKdaGX8pFe05gYPmJs.hmohTTGzus5zXQchgrfBmA/__results___files/figure-html/unnamed-chunk-57-1.png" width="400">  </p>
+   - Overview count plot is good
+   <p align="center">  <img src="https://www.kaggleusercontent.com/kf/9583080/eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2In0..DXUaSVQvbX0QmGslvWwqUA.iYYrtQoqcFoVJYrVKyqHijYvJGVQfxU95WA4swRyU67T6qLz-iha_V4mvvpg_3RUjelSPjj7P5zfGoMmew03XbBnUGsvKwlhwFsLPZobCg_FfsXhu8nIsHC_n3gs19q2G8nYm_V6CgFea0i4wf-YBzvAvCKdaGX8pFe05gYPmJs.hmohTTGzus5zXQchgrfBmA/__results___files/figure-html/unnamed-chunk-59-1.png" width="400">  </p>
+- [Python Version of Top Ten Rank R 22 M (2.88)](https://www.kaggle.com/jsylas/python-version-of-top-ten-rank-r-22-m-2-88) <br/>
+   
+   
+- [1st place solution](https://www.kaggle.com/c/favorita-grocery-sales-forecasting/discussion/47582#latest-360306) <br/>
+   - 
+- [2nd place solution overview](https://www.kaggle.com/c/favorita-grocery-sales-forecasting/discussion/47568) <br/>
+   - 
+- [3rd place solution overview](https://www.kaggle.com/c/favorita-grocery-sales-forecasting/discussion/47560#latest-302253) <br/>
+   - 
+- [4th-Place Solution Overview](https://www.kaggle.com/c/favorita-grocery-sales-forecasting/discussion/47529) <br/>
+   - 
+- [5th Place Solution](https://www.kaggle.com/c/favorita-grocery-sales-forecasting/discussion/47556) <br/>
+   - 
+- [8th solution](https://www.kaggle.com/c/favorita-grocery-sales-forecasting/discussion/47564) <br/>
+   - 
 
 #### Zillow Prize: Zillow’s Home Value Prediction (Zestimate) (MAE)
 - [Exploratory Analysis Zillow](https://www.kaggle.com/philippsp/exploratory-analysis-zillow)
