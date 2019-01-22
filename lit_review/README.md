@@ -149,7 +149,9 @@ List of regression-based competitions:
    - Nice EDA (code available)
 - [Machine Learning to Predict Taxi Fare — Part Two: Predictive Modelling](https://medium.com/analytics-vidhya/machine-learning-to-predict-taxi-fare-part-two-predictive-modelling-f80461a8072e) <br/>
    - Basic script for modeling (not so helpful)
-
+- [Python Version of Top Ten Rank R 22 M (2.88)](https://www.kaggle.com/jsylas/python-version-of-top-ten-rank-r-22-m-2-88) <br/>
+   - No EDA at all
+   - Not much explanation but very clean
 
 #### Corporación Favorita Grocery Sales Forecasting (NWRMSLE)
 - [Shopping for Insights - Favorita EDA](https://www.kaggle.com/headsortails/shopping-for-insights-favorita-eda) <br/>
@@ -166,9 +168,23 @@ List of regression-based competitions:
    <p align="center">  <img src="https://www.kaggleusercontent.com/kf/9583080/eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2In0..DXUaSVQvbX0QmGslvWwqUA.iYYrtQoqcFoVJYrVKyqHijYvJGVQfxU95WA4swRyU67T6qLz-iha_V4mvvpg_3RUjelSPjj7P5zfGoMmew03XbBnUGsvKwlhwFsLPZobCg_FfsXhu8nIsHC_n3gs19q2G8nYm_V6CgFea0i4wf-YBzvAvCKdaGX8pFe05gYPmJs.hmohTTGzus5zXQchgrfBmA/__results___files/figure-html/unnamed-chunk-57-1.png" width="400">  </p>
    - Overview count plot is good
    <p align="center">  <img src="https://www.kaggleusercontent.com/kf/9583080/eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2In0..DXUaSVQvbX0QmGslvWwqUA.iYYrtQoqcFoVJYrVKyqHijYvJGVQfxU95WA4swRyU67T6qLz-iha_V4mvvpg_3RUjelSPjj7P5zfGoMmew03XbBnUGsvKwlhwFsLPZobCg_FfsXhu8nIsHC_n3gs19q2G8nYm_V6CgFea0i4wf-YBzvAvCKdaGX8pFe05gYPmJs.hmohTTGzus5zXQchgrfBmA/__results___files/figure-html/unnamed-chunk-59-1.png" width="400">  </p>
-- [Python Version of Top Ten Rank R 22 M (2.88)](https://www.kaggle.com/jsylas/python-version-of-top-ten-rank-r-22-m-2-88) <br/>
-   
-   
+- [Comprehensive Python and D3.js Favorita analytics](https://www.kaggle.com/arthurtok/comprehensive-python-and-d3-js-favorita-analytics) <br/>
+   - Very nice analysis
+   - **Check null, missing values and NaN**
+   - Check holiday and special events
+   - Use Plotly to create interactive visualiations
+   - Nice map and code for treemap
+   <p align="center">  <img src="https://www.kaggleusercontent.com/kf/2019845/eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2In0.._nBGZ3jODDN1Ov6bUi2EPg._wi_5a6y7UqPDr_YTl5O7DJdIHO8YnLgCaL4ETtWxcJPyJCRnjuePm-6IakRPcIKNUhKESvJYoHkdaRvdlpv_N74rm4-gk2zAtiUMkri3jnFIzg3GBD1CulxxvM2qJRl8jo20AyjaRsOCZgQ9J_JjMv0zrkTlU9arrRI9679txDsABX8IghZy_cVjlr9lLW9.8n08K7Ts9encyglVYJzhgg/__results___files/__results___20_0.png" width="400">  </p>
+   - Nice seaborn heatmap on store numbers and the assigned clusters
+   <p align="center">  <img src="https://www.kaggleusercontent.com/kf/2019845/eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2In0.._nBGZ3jODDN1Ov6bUi2EPg._wi_5a6y7UqPDr_YTl5O7DJdIHO8YnLgCaL4ETtWxcJPyJCRnjuePm-6IakRPcIKNUhKESvJYoHkdaRvdlpv_N74rm4-gk2zAtiUMkri3jnFIzg3GBD1CulxxvM2qJRl8jo20AyjaRsOCZgQ9J_JjMv0zrkTlU9arrRI9679txDsABX8IghZy_cVjlr9lLW9.8n08K7Ts9encyglVYJzhgg/__results___files/__results___25_1.png" width="400">  </p>
+   - Good visualizations on Stacked Barplots of Types against clusters
+   <p align="center">  <img src="https://www.kaggleusercontent.com/kf/2019845/eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2In0.._nBGZ3jODDN1Ov6bUi2EPg._wi_5a6y7UqPDr_YTl5O7DJdIHO8YnLgCaL4ETtWxcJPyJCRnjuePm-6IakRPcIKNUhKESvJYoHkdaRvdlpv_N74rm4-gk2zAtiUMkri3jnFIzg3GBD1CulxxvM2qJRl8jo20AyjaRsOCZgQ9J_JjMv0zrkTlU9arrRI9679txDsABX8IghZy_cVjlr9lLW9.8n08K7Ts9encyglVYJzhgg/__results___files/__results___29_0.png" width="400">  </p>
+   - Very nice plot for **Displaying the HTML and D3 visuals on IPython notebook** (search the bold term)
+   - One thing inspired from the plots is to cross-check distribution between training and testing data
+- [A Very Extensive Favorita Exploratory Analysis](https://www.kaggle.com/captcalculator/a-very-extensive-favorita-exploratory-analysis) <br/>
+   - 
+- [Memory optimization and EDA on entire dataset](https://www.kaggle.com/jagangupta/memory-optimization-and-eda-on-entire-dataset) <br/>
+   - 
 - [1st place solution](https://www.kaggle.com/c/favorita-grocery-sales-forecasting/discussion/47582#latest-360306) <br/>
    - 
 - [2nd place solution overview](https://www.kaggle.com/c/favorita-grocery-sales-forecasting/discussion/47568) <br/>
