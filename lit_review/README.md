@@ -182,11 +182,51 @@ List of regression-based competitions:
    - Very nice plot for **Displaying the HTML and D3 visuals on IPython notebook** (search the bold term)
    - One thing inspired from the plots is to cross-check distribution between training and testing data
 - [A Very Extensive Favorita Exploratory Analysis](https://www.kaggle.com/captcalculator/a-very-extensive-favorita-exploratory-analysis) <br/>
-   - 
+   - written in R, not that useful
+   - Visualization not as extensive as [Shopping for Insights - Favorita EDA](https://www.kaggle.com/headsortails/shopping-for-insights-favorita-eda)
 - [Memory optimization and EDA on entire dataset](https://www.kaggle.com/jagangupta/memory-optimization-and-eda-on-entire-dataset) <br/>
-   - 
+   - following are the steps I've used to reduce memory consumption
+      - Check the range of values stored in the column
+      - Check the suitable datatype from the following link https://docs.scipy.org/doc/numpy-1.13.0/user/basics.types.html
+      - Change datatype
+      - split date col into three columns
+      - There are two reasons to do this
+      - In pandas any operation on column of type "datetime" is not vectorized.Hence any operations on it will take more time
+      - Splitting it into three columns will provide better memory utilization. Eg: in the test dataset date col uses approx. 25 mb while storenbr(uint8) uses approx. 3 mb
+      - Impute on promo col
+      - join everything
+   - the groupby table of `Performance of Item families across stores of different type` and `Top 20 Item classes(by overall sales)` are nice
 - [1st place solution](https://www.kaggle.com/c/favorita-grocery-sales-forecasting/discussion/47582#latest-360306) <br/>
-   - 
+   - no need to use all data as training - only data in 2017 was used 
+   - tried to use more data but failed
+   - filled missing or negtive promotion and target values with 0
+   - nice feature engineering part
+      - basic features
+         - category features: store, item, famlily, class, cluster…
+         - promotion
+         - dayofweek(only for model 3)
+      - statitical features: we use some methods to stat some targets for different keys in different time windows
+         - time windows
+            - nearest days: [1,3,5,7,14,30,60,140]
+            - equal time windows: [1] * 16, [7] * 20…
+         - key：store x item, item, store x class
+         - target: promotion, unit_sales, zeros
+         - method
+            - mean, median, max, min, std
+            - days since last appearance
+            - difference of mean value between adjacent time windows(only for equal time windows)
+      - useless features
+         - holidays
+         - other keys such as: cluster x item, store x family…
+   - Single model
+      - model_1 : 0.506 / 0.511 , 16 lgb models trained for each day source code
+      - model_2 : 0.507 / 0.513 , 16 nn models trained for each day source code
+      - model3 : 0.512 / 0.515，1 lgb model for 16 days with almost same features as model1
+      - model_4 : 0.517 / 0.519，1 nn model based on @sjv's code
+   - Ensemble
+      - Stacking doesn't work well this time, our best model is linear blend of 4 single models. 
+      - final submission = 0.42*model1 + 0.28 * model2 + 0.18 * model3 + 0.12 * model4 
+      - public = 0.504 , private = 0.509
 - [2nd place solution overview](https://www.kaggle.com/c/favorita-grocery-sales-forecasting/discussion/47568) <br/>
    - 
 - [3rd place solution overview](https://www.kaggle.com/c/favorita-grocery-sales-forecasting/discussion/47560#latest-302253) <br/>
