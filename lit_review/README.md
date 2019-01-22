@@ -228,15 +228,21 @@ List of regression-based competitions:
       - final submission = 0.42*model1 + 0.28 * model2 + 0.18 * model3 + 0.12 * model4 
       - public = 0.504 , private = 0.509
 - [2nd place solution overview](https://www.kaggle.com/c/favorita-grocery-sales-forecasting/discussion/47568) <br/>
-   - 
+   - During the training, we set the learning rate as 0.0005 and with a learning decay.
+   - Apporach worth re-reading for time-series (or time series) competitions
 - [3rd place solution overview](https://www.kaggle.com/c/favorita-grocery-sales-forecasting/discussion/47560#latest-302253) <br/>
-   - 
+   - Ensemble of CNN, LSTM and GRU
+   - When it comes to time series, I strongly belive that the two most important things are validation and bagging. By correct validation I mean simulating train/test (train/unknown future) split to avoid any kind of future information leaks. Thus, the validation set should include a time period that is not present in train in any way, even with different timeseries, because these time series could correlate with each other.
 - [4th-Place Solution Overview](https://www.kaggle.com/c/favorita-grocery-sales-forecasting/discussion/47529) <br/>
-   - 
+   - Write up quite short
+   - Used autoencoder + bidirectional LSTM (crazy)
+   - [Similar code for web traffic forecasting used in this competition](https://github.com/sjvasquez/web-traffic-forecasting)
 - [5th Place Solution](https://www.kaggle.com/c/favorita-grocery-sales-forecasting/discussion/47556) <br/>
-   - 
+   - Used LGBM, CNN+DNN, and RNN
+   - [Github link](https://github.com/LenzDu/Kaggle-Competition-Favorita)
 - [8th solution](https://www.kaggle.com/c/favorita-grocery-sales-forecasting/discussion/47564) <br/>
-   - 
+   - Focus on seasonality and missing values
+   - Simply use a single NN model
 
 #### Zillow Prize: Zillow’s Home Value Prediction (Zestimate) (MAE)
 - [Exploratory Analysis Zillow](https://www.kaggle.com/philippsp/exploratory-analysis-zillow)
