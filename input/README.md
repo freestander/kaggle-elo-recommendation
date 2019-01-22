@@ -6,3 +6,6 @@ The processed parquet file can be downloaded from [the link here](https://www.dr
 - [hist_trans_df.parquet.gzip](https://www.dropbox.com/sh/td9q7fscpgi5svv/AADIOF8hMdvjiQEOQFDttQuEa/hist_trans_df.parquet.gzip?dl=0)
 - [new_trans_df.parquet.gzip](https://www.dropbox.com/sh/td9q7fscpgi5svv/AAAxITVMH28P0eC--pSQnSxZa/new_trans_df.parquet.gzip?dl=0)
 - [ss_df.parquet.gzip](https://www.dropbox.com/sh/td9q7fscpgi5svv/AACk0HcYWTE-Ohzhp1cPxInWa/ss_df.parquet.gzip?dl=0)
+
+The parquet file with created features can be downloaded from here:
+- [features_df.parquet.gzip](https://www.dropbox.com/sh/td9q7fscpgi5svv/AAA326UL9Paz1QYTzS-LzU6Fa/features_df.parquet.gzip?dl=0)
