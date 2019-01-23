@@ -253,15 +253,30 @@ List of regression-based competitions:
    <p align="center">  <img src="./img/zillow_1.png" width="400">  </p>
    - Very good interactive map visualization with several error measures
 - [Simple Exploration Notebook - Zillow Prize](https://www.kaggle.com/sudalairajkumar/simple-exploration-notebook-zillow-prize) <br/>
-   - 
+   - good script of checking existing files in a folder
+      ```
+      from subprocess import check_output
+      print(check_output(["ls", "../input"]).decode("utf8"))
+      ```
+   - Nice latitude and longitude plot
+      <p align="center">  <img src="./img/zillow_2.png" width="400">
+   - One liner to check missing/null values `missing_df = train_df.isnull().sum(axis=0).reset_index()`
+   - EDA consists of **univariate non-graphical, multivariate nongraphical, univariate graphical, and multivariate graphical**.
+   - Nice bivariate plot
+      <p align="center">  <img src="./img/zillow_3.png" width="400">
+   - Use extra-tree models for getting non-linear model importance
 - [Only_Cat boost (LB : 0.0641 939)](https://www.kaggle.com/abdelwahedassklou/only-cat-boost-lb-0-0641-939) <br/>
-   - 
+   - Python script only, no explanation
+   - Use of `low_memory ` option for `pd.read_csv`
+   - Regular use of gc to avoid heavy memory use
+   - Pretty clean and structured code, good candidate for template
 - [XGBoost, LightGBM, and OLS and NN](https://www.kaggle.com/aharless/xgboost-lightgbm-and-ols-and-nn) <br/>
-   - 
+   - Python script only, no explanation
+   - a
 - [Boost your score with stacknet ( 0.06433 with another script)](https://www.kaggle.com/c/zillow-prize-1/discussion/39111) <br/>
-   - 
+   - a
 - [17th Place Solution](https://www.kaggle.com/c/zillow-prize-1/discussion/47434) <br/>
-   - 
+   - a
 
 #### Mercedes-Benz Greener Manufacturing (R^2)
 - [Simple Exploration Notebook - Mercedes](https://www.kaggle.com/sudalairajkumar/simple-exploration-notebook-mercedes)
@@ -396,6 +411,7 @@ List of regression-based competitions:
 - [Log-transformation and its implications for data analysis](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4120293/)
 - [Box-Cox Transformations](http://onlinestatbook.com/2/transformations/box-cox.html)
 - [SciPy: boxcox1p function](https://docs.scipy.org/doc/scipy-0.19.0/reference/generated/scipy.special.boxcox1p.html)
+- [CMU Stat - Exploratory Data Analysis](https://www.stat.cmu.edu/~hseltman/309/Book/chapter4.pdf)
 
 ### 2b. Feature Generation
 
