@@ -243,6 +243,7 @@ The `target` value in train data set is normally distrubited with some outliers.
   - Number of boosting rounds 63
   - Training RMSE: 3.5938221991741477
   - Testing RMSE: 3.7996810440253364
+  - LB Score: 3.870
 
 ![first active month in train](./images/lgb_result.png)
 
@@ -250,6 +251,7 @@ The `target` value in train data set is normally distrubited with some outliers.
   - Number of boosting rounds 43
   - Training RMSE: 3.572817
   - Testing RMSE: 3.803299
+  - LB Score: 3.882
 
 ![first active month in train](./images/xgb_result.png)
 
