@@ -22,6 +22,7 @@ List of regression-based competitions:
 - [Sberbank Russian Housing Market (RMSLE)](https://www.kaggle.com/c/sberbank-russian-housing-market)
 - [Restaurant Revenue Prediction (RMSE)](https://www.kaggle.com/c/restaurant-revenue-prediction)
 - [Google Analytics Customer Revenue Prediction (RMSE)](https://www.kaggle.com/c/ga-customer-revenue-prediction)
+- [Rossmann Store Sales (RMSPE)](https://www.kaggle.com/c/rossmann-store-sales)
 
 ## 1. Kernels and Discussion
 
@@ -370,6 +371,14 @@ List of regression-based competitions:
 - [Simple Exploration+Baseline - GA Customer Revenue](https://www.kaggle.com/sudalairajkumar/simple-exploration-baseline-ga-customer-revenue)
 - [Group xgb for Gstore v2](https://www.kaggle.com/kailex/group-xgb-for-gstore-v2)
 - [Google Analytics Customer Revenue Prediction -kaggle challenge (Part One)](https://medium.com/@jacky308082/this-time-i-would-try-to-use-english-to-explain-this-whole-project-4a26c9294ccf)
+
+#### Rossmann Store Sales (RMSPE)
+- [Exploratory Analysis Rossmann](https://www.kaggle.com/thie1e/exploratory-analysis-rossmann)
+- [Time Series Analysis and Forecasts with Prophet](https://www.kaggle.com/elenapetrova/time-series-analysis-and-forecasts-with-prophet)
+- [Interactive Sales Visualization!](https://www.kaggle.com/shearerp/interactive-sales-visualization)
+- [Rossmann Store Sales, Winner's Interview: 1st place, Gert Jacobusse](http://blog.kaggle.com/2015/12/21/rossmann-store-sales-winners-interview-1st-place-gert/)
+- [2nd place github](https://github.com/li-kai/rossman-store-sales)
+
 
 ## 2. Papers and Hyperlinks
 
