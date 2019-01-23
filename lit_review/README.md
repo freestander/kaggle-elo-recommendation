@@ -179,8 +179,8 @@ List of regression-based competitions:
    - Nice seaborn heatmap on store numbers and the assigned clusters
    <p align="center">  <img src="https://www.kaggleusercontent.com/kf/2019845/eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2In0.._nBGZ3jODDN1Ov6bUi2EPg._wi_5a6y7UqPDr_YTl5O7DJdIHO8YnLgCaL4ETtWxcJPyJCRnjuePm-6IakRPcIKNUhKESvJYoHkdaRvdlpv_N74rm4-gk2zAtiUMkri3jnFIzg3GBD1CulxxvM2qJRl8jo20AyjaRsOCZgQ9J_JjMv0zrkTlU9arrRI9679txDsABX8IghZy_cVjlr9lLW9.8n08K7Ts9encyglVYJzhgg/__results___files/__results___25_1.png" width="400">  </p>
    - Good visualizations on Stacked Barplots of Types against clusters
-   <p align="center">  <img src="https://www.kaggleusercontent.com/kf/2019845/eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2In0.._nBGZ3jODDN1Ov6bUi2EPg._wi_5a6y7UqPDr_YTl5O7DJdIHO8YnLgCaL4ETtWxcJPyJCRnjuePm-6IakRPcIKNUhKESvJYoHkdaRvdlpv_N74rm4-gk2zAtiUMkri3jnFIzg3GBD1CulxxvM2qJRl8jo20AyjaRsOCZgQ9J_JjMv0zrkTlU9arrRI9679txDsABX8IghZy_cVjlr9lLW9.8n08K7Ts9encyglVYJzhgg/__results___files/__results___29_0.png" width="400">  </p>
-   - Very nice plot for **Displaying the HTML and D3 visuals on IPython notebook** (search the bold term)
+   <p align="center"> <img src="https://www.kaggleusercontent.com/kf/2019845/eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2In0.._nBGZ3jODDN1Ov6bUi2EPg._wi_5a6y7UqPDr_YTl5O7DJdIHO8YnLgCaL4ETtWxcJPyJCRnjuePm-6IakRPcIKNUhKESvJYoHkdaRvdlpv_N74rm4-gk2zAtiUMkri3jnFIzg3GBD1CulxxvM2qJRl8jo20AyjaRsOCZgQ9J_JjMv0zrkTlU9arrRI9679txDsABX8IghZy_cVjlr9lLW9.8n08K7Ts9encyglVYJzhgg/__results___files/__results___29_0.png" width="400"> </p>
+   - Very nice plot for "Displaying the HTML and D3 visuals on IPython notebook" (search the bold term) <br/>
    - One thing inspired from the plots is to cross-check distribution between training and testing data
 - [A Very Extensive Favorita Exploratory Analysis](https://www.kaggle.com/captcalculator/a-very-extensive-favorita-exploratory-analysis) <br/>
    - written in R, not that useful
@@ -272,12 +272,27 @@ List of regression-based competitions:
    - Pretty clean and structured code, good candidate for template
 - [XGBoost, LightGBM, and OLS and NN](https://www.kaggle.com/aharless/xgboost-lightgbm-and-ols-and-nn) <br/>
    - Python script only, no explanation
-   - a
-- [Boost your score with stacknet ( 0.06433 with another script)](https://www.kaggle.com/c/zillow-prize-1/discussion/39111) <br/>
-   - a
+   - Purely running XGBoost, LightGBM, OLS and NN and then ensemble
+- [Boost your score with stacknet (0.06433 with another script)](https://www.kaggle.com/c/zillow-prize-1/discussion/39111) <br/>
+   - Discussion post
+   - Proposes the use of [stacknet](https://github.com/h2oai/pystacknet) 
+   - [kaggle official blog post on stacknet](http://blog.kaggle.com/2017/06/15/stacking-made-easy-an-introduction-to-stacknet-by-competitions-grandmaster-marios-michailidis-kazanova/)
+   - Discussion centers around the use of stacknet
 - [17th Place Solution](https://www.kaggle.com/c/zillow-prize-1/discussion/47434) <br/>
-   - a
-
+   - **MUST RE-READ, RE-READ AND RE-READ**
+   - related kernel - [Zillow EDA On Missing Values & Multicollinearity](https://www.kaggle.com/viveksrinivasan/zillow-eda-on-missing-values-multicollinearity)
+   - include a very detailed [powerpoint presentation file](./reference_file/Zilllow Summary Presentation 2018.01.11.pptx)
+   - good visualization on missing data
+      <p align="center">  <img src="./img/zillow_4.png" width="400">
+   - **Got a plot for just the correlation of the most important features**
+   - Good strategy on feature design
+      - basic work(e.g. avg room size, value of structure relative to land)
+      - unusual methods
+         - neighborhood: basically consider houses with no labels by using **average neighbor** and **constraining relationships for each neighbor** (let's say get the 500 nearest homes)
+         - constrained simiarity measures: determine weights to constrain the fitting
+      - weak and discarded features
+   - Three layers of stacking - very strong and eye-opening
+      <p align="center">  <img src="./img/zillow_5.png" width="400">
 #### Mercedes-Benz Greener Manufacturing (R^2)
 - [Simple Exploration Notebook - Mercedes](https://www.kaggle.com/sudalairajkumar/simple-exploration-notebook-mercedes)
 - [MercEDAs - update2 - intrinsic noise](https://www.kaggle.com/headsortails/mercedas-update2-intrinsic-noise)
