@@ -281,7 +281,7 @@ List of regression-based competitions:
 - [17th Place Solution](https://www.kaggle.com/c/zillow-prize-1/discussion/47434) <br/>
    - **MUST RE-READ, RE-READ AND RE-READ**
    - related kernel - [Zillow EDA On Missing Values & Multicollinearity](https://www.kaggle.com/viveksrinivasan/zillow-eda-on-missing-values-multicollinearity)
-   - include a very detailed [powerpoint presentation file](./reference_file/Zilllow Summary Presentation 2018.01.11.pptx)
+   - include a very detailed [powerpoint presentation file](./reference_file/zillow.pptx) or [powerpoint pdf](./reference_file/zillow.pdf)
    - good visualization on missing data
       <p align="center">  <img src="./img/zillow_4.png" width="400">
    - **Got a plot for just the correlation of the most important features**
@@ -292,7 +292,7 @@ List of regression-based competitions:
          - constrained simiarity measures: determine weights to constrain the fitting
       - weak and discarded features
    - Three layers of stacking - very strong and eye-opening
-      <p align="center">  <img src="./img/zillow_5.png" width="400">
+      <p align="center">  <img src="./img/zillow_5.PNG" width="400">
 #### Mercedes-Benz Greener Manufacturing (R^2)
 - [Simple Exploration Notebook - Mercedes](https://www.kaggle.com/sudalairajkumar/simple-exploration-notebook-mercedes)
 - [MercEDAs - update2 - intrinsic noise](https://www.kaggle.com/headsortails/mercedas-update2-intrinsic-noise)
