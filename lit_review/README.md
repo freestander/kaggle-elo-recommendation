@@ -246,12 +246,22 @@ List of regression-based competitions:
    - Simply use a single NN model
 
 #### Zillow Prize: Zillow’s Home Value Prediction (Zestimate) (MAE)
-- [Exploratory Analysis Zillow](https://www.kaggle.com/philippsp/exploratory-analysis-zillow)
-- [Simple Exploration Notebook - Zillow Prize](https://www.kaggle.com/sudalairajkumar/simple-exploration-notebook-zillow-prize)
-- [Only_Cat boost (LB : 0.0641 939)](https://www.kaggle.com/abdelwahedassklou/only-cat-boost-lb-0-0641-939)
-- [XGBoost, LightGBM, and OLS and NN](https://www.kaggle.com/aharless/xgboost-lightgbm-and-ols-and-nn)
-- [Boost your score with stacknet ( 0.06433 with another script)](https://www.kaggle.com/c/zillow-prize-1/discussion/39111)
-- [17th Place Solution](https://www.kaggle.com/c/zillow-prize-1/discussion/47434)
+- [Exploratory Analysis Zillow](https://www.kaggle.com/philippsp/exploratory-analysis-zillow) <br/>
+   - written in R script
+   - Use absolute log error change to analyze housing price error over time
+   - Nice plot on "How does the absolute logerror change with build_year"
+   <p align="center">  <img src="./img/zillow_1.png" width="400">  </p>
+   - Very good interactive map visualization with several error measures
+- [Simple Exploration Notebook - Zillow Prize](https://www.kaggle.com/sudalairajkumar/simple-exploration-notebook-zillow-prize) <br/>
+   - 
+- [Only_Cat boost (LB : 0.0641 939)](https://www.kaggle.com/abdelwahedassklou/only-cat-boost-lb-0-0641-939) <br/>
+   - 
+- [XGBoost, LightGBM, and OLS and NN](https://www.kaggle.com/aharless/xgboost-lightgbm-and-ols-and-nn) <br/>
+   - 
+- [Boost your score with stacknet ( 0.06433 with another script)](https://www.kaggle.com/c/zillow-prize-1/discussion/39111) <br/>
+   - 
+- [17th Place Solution](https://www.kaggle.com/c/zillow-prize-1/discussion/47434) <br/>
+   - 
 
 #### Mercedes-Benz Greener Manufacturing (R^2)
 - [Simple Exploration Notebook - Mercedes](https://www.kaggle.com/sudalairajkumar/simple-exploration-notebook-mercedes)
