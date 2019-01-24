@@ -305,12 +305,28 @@ List of regression-based competitions:
 - [in CV you must trust](https://www.kaggle.com/c/mercedes-benz-greener-manufacturing/discussion/36136)
  
  #### Allstate Claims Severity (MAE)
-- [Exploratory study on ML algorithms](https://www.kaggle.com/sharmasanthosh/exploratory-study-on-ml-algorithms)
-- [All-Trump-State](https://www.kaggle.com/vishallakha/all-trump-state)
-- [my test1](https://www.kaggle.com/pedram/my-test1)
-- [#1st Place Solution](https://www.kaggle.com/c/allstate-claims-severity/discussion/26416)
-- [#2nd Place Solution](https://www.kaggle.com/c/allstate-claims-severity/discussion/26427)
-- [Faron's 3rd Place Solution](https://www.kaggle.com/c/allstate-claims-severity/discussion/26447)
+- [Exploratory study on ML algorithms](https://www.kaggle.com/sharmasanthosh/exploratory-study-on-ml-algorithms) <br/>
+   - ignore warnings `warnings.filterwarnings('ignore')`
+   - check skewness and kurtosis
+   - nice box and density plots (**make sure to check the comment in the code**)
+      <p align="center">  <img src="./img/allstate_1.png" width="400">
+   - skew transformation (`numpy.log1p`)
+   - scatter plot using `sns.pairplot` is very illustrative
+       <p align="center">  <img src="./img/allstate_2.png" width="400">
+       <p align="center">  <img src="./img/allstate_3.png" width="400">
+   - very detailed visualization for each feature
+   - did one-hot encoding
+   - Used both linear and non-linear algorithms to evaluate (e.g. linear regession, elastic net, lasso, SVM, bagging and boosting)
+- [All-Trump-State](https://www.kaggle.com/vishallakha/all-trump-state) <br/>
+   - a
+- [my test1](https://www.kaggle.com/pedram/my-test1) <br/>
+   - a
+- [#1st Place Solution](https://www.kaggle.com/c/allstate-claims-severity/discussion/26416) <br/>
+   - a
+- [#2nd Place Solution](https://www.kaggle.com/c/allstate-claims-severity/discussion/26427) <br/>
+   - a
+- [Faron's 3rd Place Solution](https://www.kaggle.com/c/allstate-claims-severity/discussion/26447) <br/>
+   - a
 
 #### How Much Did It Rain? II (MAE)
 - [Beware of Outliers !!](https://www.kaggle.com/sudalairajkumar/rainfall-test)
