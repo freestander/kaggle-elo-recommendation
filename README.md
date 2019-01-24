@@ -265,6 +265,8 @@ The `target` value in train data set is normally distrubited with some outliers.
 - [Kaggle Beginner: LGBM Starter](https://www.kaggle.com/bgrad3031/kaggle-beginner-lgbm-starter)
 - [Reducing Memory Footprint](https://www.kaggle.com/rahulahuja010/reducing-memory-footprint)
 - [Reducing memory use of Transactions df by 12x](https://www.kaggle.com/poedator/reducing-memory-use-of-transactions-df-by-12x)
+- [Feature Selection with Null Importances](https://www.kaggle.com/tilii7/boruta-feature-elimination)
+- [https://www.kaggle.com/ogrellier/feature-selection-with-null-importances](Feature Selection with Null Importances)
 - [Hyperparameter tuning](https://www.kaggle.com/fabiendaniel/hyperparameter-tuning)
 - [A Tutorial of Model Monotonicity Constraint Using Xgboost](https://xiaoxiaowang87.github.io/monotonicity_constraint/)
 - [A template for my python machine learning projects](https://github.com/mengdong/python-ml-structure)
