@@ -318,7 +318,7 @@ List of regression-based competitions:
    - did one-hot encoding
    - Used both linear and non-linear algorithms to evaluate (e.g. linear regession, elastic net, lasso, SVM, bagging and boosting)
 - [All-Trump-State](https://www.kaggle.com/vishallakha/all-trump-state) <br/>
-   - a
+   - Just script, no EDA
 - [my test1](https://www.kaggle.com/pedram/my-test1) <br/>
    - a
 - [#1st Place Solution](https://www.kaggle.com/c/allstate-claims-severity/discussion/26416) <br/>
