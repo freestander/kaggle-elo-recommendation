@@ -462,6 +462,7 @@ List of regression-based competitions:
 - [How to Tuning XGboost in an efficient way](https://www.kaggle.com/general/17120)
 - [yellowbrick: Model Selection Tutorial](http://www.scikit-yb.org/en/latest/tutorial.html)
 - [XGBoost — Model to win Kaggle](https://medium.com/@gautam.karmakar/xgboost-model-to-win-kaggle-e12b35cd1aad)
+- [Optimizing hyperparams with hyperopt](http://fastml.com/optimizing-hyperparams-with-hyperopt/)
 
 ### 2g. Ensemble
 - [Kaggle Ensembling Guide](https://mlwave.com/kaggle-ensembling-guide/)
