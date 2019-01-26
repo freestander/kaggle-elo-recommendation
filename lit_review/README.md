@@ -475,6 +475,9 @@ List of regression-based competitions:
 ### 2i. Project Papers
 - [Using Machine Learning to Cocreate Value through Dynamic Customer Engagement in a Brand Loyalty Program](https://www.researchgate.net/publication/322815855_Using_Machine_Learning_to_Cocreate_Value_through_Dynamic_Customer_Engagement_in_a_Brand_Loyalty_Program)
 
+### 2j. Software Packages
+- [xLearn - High-Performance and Scalable Machine Learning Package](https://www.kaggle.com/c/titanic/discussion/44176)
+
 ## 3. Domain Knowledge
 
 ### 7 reasons to view analytics provided by a credit card payment processor
