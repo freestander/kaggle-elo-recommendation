@@ -96,7 +96,7 @@ The `target` value in train data set is normally distrubited with some outliers.
 - The target variable is normally distributed around zero.
 - There are some very low loyalty scores below -30.
 
-![first active month in train](./images/target_hist.png)
+![target in train](./images/target_hist.png)
 
 # Data Processing and Feature Engineering
 - Reduce memory footprint by optimizing data types.
@@ -238,14 +238,16 @@ The `target` value in train data set is normally distrubited with some outliers.
   - new_date_min_delta
   - new_date_max_delta
 
+- Feature Importance
+![feature importance](./images/feature_importance.png)
+
 # Parameter Tuning and Model Evaluation
 - LightGBM
-  - Number of boosting rounds 63
-  - Training RMSE: 3.5938221991741477
-  - Testing RMSE: 3.7996810440253364
-  - LB Score: 3.870
+  - 5-Fold CV
+  - Testing RMSE: [3.78165, 3.72946, 3.76188, 3.75762, 3.81691]
+  - LB Score: 3.841
 
-![first active month in train](./images/lgb_result.png)
+![light_gbm](./images/lgb_result.png)
 
 - XGBoost
   - Number of boosting rounds 43
@@ -253,11 +255,20 @@ The `target` value in train data set is normally distrubited with some outliers.
   - Testing RMSE: 3.803299
   - LB Score: 3.882
 
-![first active month in train](./images/xgb_result.png)
+![xgboost](./images/xgb_result.png)
 
 # Model Selection and Ensemble
 
-# Summary
+# Things to do
+- Outlier (Very very very important)
+- Feature generation
+   - [Check time variable](https://www.kaggle.com/denzo123/a-closer-look-at-date-variables)
+- [Feature extraction](https://www.kaggle.com/c/elo-merchant-category-recommendation/discussion/73937)
+- Missing value / NaN value
+- Para tuning
+- Ensemble
+- Error analysis: find out data points with large error values and see why they perform badly
+- [Check external data / Data leak](https://www.kaggle.com/c/elo-merchant-category-recommendation/discussion/72958)
 
 # Reference
 - [Starter EDA + XGBoost of Elo Merchant Data](https://www.kaggle.com/robikscube/starter-eda-xgboost-of-elo-merchant-data)
