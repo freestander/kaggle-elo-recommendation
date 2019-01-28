@@ -49,3 +49,4 @@
    - find out what cardID means from [here](https://www.kaggle.com/c/elo-merchant-category-recommendation/discussion/78732)
    - from [here](https://www.kaggle.com/c/elo-merchant-category-recommendation/discussion/78614) and this [kernel](https://www.kaggle.com/roydatascience/recursive-feature-selection-using-sklearn-on-elo?scriptVersionId=9969948), try recursive feature selection
    - Varyinh SD limit for determining the set of outliers
+   - Try accuracy but not log_loss in training
