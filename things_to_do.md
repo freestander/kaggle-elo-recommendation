@@ -50,3 +50,7 @@
    - from [here](https://www.kaggle.com/c/elo-merchant-category-recommendation/discussion/78614) and this [kernel](https://www.kaggle.com/roydatascience/recursive-feature-selection-using-sklearn-on-elo?scriptVersionId=9969948), try recursive feature selection
    - Varyinh SD limit for determining the set of outliers
    - Try accuracy but not log_loss in training
+   - [FM](https://www.kaggle.com/c/elo-merchant-category-recommendation/discussion/76480) / FFM / FTRL
+   - Feature selection with [Boruta](https://www.kaggle.com/c/elo-merchant-category-recommendation/discussion/78408) and [RFE](https://www.kaggle.com/roydatascience/recursive-feature-selection-using-sklearn-on-elo?scriptVersionId=9917777) and [null importance](https://www.kaggle.com/ogrellier/feature-selection-with-null-importances) and [less is more](https://www.kaggle.com/c/elo-merchant-category-recommendation/discussion/73937)
+   - Try the [co-occurance matrix](https://www.kaggle.com/c/elo-merchant-category-recommendation/discussion/78600) concept
+   - 
