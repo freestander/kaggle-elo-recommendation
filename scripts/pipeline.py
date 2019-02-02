@@ -62,37 +62,7 @@ def display_importances(feature_importance_df_):
     nowtime = dt.datetime.now().strftime("%Y-%m-%d-%H%M%S")
     plt.savefig('lgbm_importances-{}.png'.format(nowtime))
 
-# reduce memory
-def reduce_mem_usage(df, verbose=True):
-    numerics = ['int16', 'int32', 'int64', 'float16', 'float32', 'float64']
-    start_mem = df.memory_usage().sum() / 1024**2
-    for col in df.columns:
-        col_type = df[col].dtypes
-        if col_type in numerics:
-            c_min = df[col].min()
-            c_max = df[col].max()
-            if str(col_type)[:3] == 'int':
-                if c_min > np.iinfo(np.int8).min and c_max < np.iinfo(np.int8).max:
-                    df[col] = df[col].astype(np.int8)
-                elif c_min > np.iinfo(np.int16).min and c_max < np.iinfo(np.int16).max:
-                    df[col] = df[col].astype(np.int16)
-                elif c_min > np.iinfo(np.int32).min and c_max < np.iinfo(np.int32).max:
-                    df[col] = df[col].astype(np.int32)
-                elif c_min > np.iinfo(np.int64).min and c_max < np.iinfo(np.int64).max:
-                    df[col] = df[col].astype(np.int64)
-            else:
-                if c_min > np.finfo(np.float16).min and c_max < np.finfo(np.float16).max:
-                    df[col] = df[col].astype(np.float16)
-                elif c_min > np.finfo(np.float32).min and c_max < np.finfo(np.float32).max:
-                    df[col] = df[col].astype(np.float32)
-                else:
-                    df[col] = df[col].astype(np.float64)
 
-    end_mem = df.memory_usage().sum() / 1024**2
-    print('Memory usage after optimization is: {:.2f} MB'.format(end_mem))
-    print('Decreased by {:.1f}%'.format(100 * (start_mem - end_mem) / start_mem))
-
-    return df
 
 # preprocessing train & test
 def train_test(num_rows=None):
@@ -420,6 +390,7 @@ def additional_features(df):
 
     return df
 
+
 # LightGBM GBDT with KFold or Stratified KFold
 def kfold_lightgbm(train_df, test_df, num_folds, stratified = False, debug= False):
     print("Starting LightGBM. Train shape: {}, test shape: {}".format(train_df.shape, test_df.shape))
@@ -511,7 +482,7 @@ def kfold_lightgbm(train_df, test_df, num_folds, stratified = False, debug= Fals
 def append_log_file(text):
     with open("../logs/scores.log", "a") as myfile:
         myfile.write(text)
-        myfile.wrote('\n')
+        myfile.write('\n')
     return
 
 def main(debug=False, train_only=False):
@@ -536,6 +507,11 @@ def main(debug=False, train_only=False):
         with timer('load_csv_files'):
             train_df = pd.read_csv('../working/train_df.csv')
             test_df = pd.read_csv('../working/test_df.csv')
+            # Add regression values
+            print('Adding reg features')
+            reg_features = pd.read_parquet('../working/hist_lags_regression.parquet')
+            train_df = train_df.merge(reg_features, on=['card_id'], how='left')
+            test_df = test_df.merge(reg_features, on=['card_id'], how='left')
 
     with timer("Run LightGBM with kfold"):
         kfold_lightgbm(train_df, test_df, num_folds=11, stratified=False, debug=debug)
@@ -544,4 +520,4 @@ if __name__ == "__main__":
     nowtime = dt.datetime.now().strftime("%Y-%m-%d-%H%M%S")
     submission_file_name = "../output/submission-{}.csv".format(nowtime)
     with timer("Full model run"):
-        main(debug=False, train_only=False)
+        main(debug=False, train_only=True)
