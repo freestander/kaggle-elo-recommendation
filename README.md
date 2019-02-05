@@ -98,148 +98,102 @@ The `target` value in train data set is normally distrubited with some outliers.
 
 ![target in train](./images/target_hist.png)
 
+The `authorized_flag` is in both historical and new transactions.
+- There are two categories: 'Y', 'N' in both historical and new transactions.
+- Most of the transactions are authorized in historical transactions.
+- All transactions are authorized 'Y' in the new transactions.
+
+![authorized_flag](./images/authorized_flag.png)
+
+The `installments` is in both historical and new transactions.
+- Most of the installments have values of 0 and 1 in both historical and new transactions.
+- The values of -1 and 999 seem to be outliers.
+
+![installments](./images/installments.png)
+
+The `category_1` is in both historical and new transactions.
+- There are two categories: 'Y' and 'N' in both historical and new transactions. 
+- Most of the categories have values 'N' in both historical and new transactions.
+
+![category_1](./images/category_1.png)
+
+The `category_2` is in both historical and new transactions.
+- There are five categories: 1, 2, 3, 4, 5 in both historical and new transactions. 
+- Most of the categories have values 1 in both historical and new transactions with some missing values denoted as -999.
+
+![category_2](./images/category_2.png)
+
+The `category_3` is in both historical and new transactions.
+- There are three categories: 'A', 'B', 'C' in both historical and new transactions.
+- Most of the categories have values 'A' and 'B' in both historical and new transactions with some missing values denoted as 'X'.
+
+![category_3](./images/category_3.png)
+
+The `category_4` is from merchant data.
+- There are two categories: 'Y', 'N' in merchant data with 'N' significantly more.
+
+![category_4](./images/category_4.png)
+
+The `subsector_id` is in both historical and new transactions.
+- The distributions are similar in both historical and new transactions with some differences.
+
+![subsector_id](./images/subsector_id.png)
+
+The `merchant_category_id` is in both historical and new transactions.
+- The distributions are different in historical and new transactions.
+- This feature constains too many granular levels of data.
+
+![merchant_category_id](./images/merchant_category_id.png)
+
+The `city_id` is in both historical and new transactions.
+- The distributions are different in historical and new transactions.
+- This feature constains too many granular levels of data.
+
+![city_id](./images/city_id.png)
+
+The `state_id` is in both historical and new transactions.
+- The distributions are similar in historical and new transactions.
+- This feature constains too many granular levels of data.
+
+![state_id](./images/state_id.png)
+
+The `month_lag` is in both historical and new transactions.
+- The distributions are very different in historical and new transactions.
+- The month lags seem to depend on a certain reference date.
+
+![month_lag](./images/month_lag.png)
+
+The `purchase_amount` is in both historical and new transactions.
+- 98.8% purchase amount falls with [-0.75, 1] in historical transactions.
+- 98.6% purchase amount falls with [-0.75, 1] in new transactions.
+- Although this is a normalized value, some outliers are very large, i.e., 6010603.9717525.
+
+![purchase_amount](./images/purchase_amount.png)
+
+The `purchase_date` is in both historical and new transactions.
+- The purchase date cuts off around a certain reference date for historical and new transactions.
+
+![trans_date](./images/trans_date.png)
+
+The `hist_trans_dow` is derived from `purchase_date` in both historical and new transactions.
+- The purchase day of week follows an increasing trend from Sunday to Saturday in both historical and new transactions.
+
+![trans_dow](./images/trans_dow.png)
+
+The `trans_hour` is derived from `purchase_date` in both historical and new transactions.
+- The purchase hour seems to peak around noon with shoulders on morning and evenings.
+
+![trans_hour](./images/trans_hour.png)
+
 # Data Processing and Feature Engineering
 - Reduce memory footprint by optimizing data types.
-- Process outliers with respect to `target` in train.csv (optional).
-- Log-transform the `target` in train.csv to make it more normally distributed.
-- Fill in logic for NA values of `first_active_month` in test.csv.
+- Process outliers with respect to `target` in train.csv.
+- Fill in logic for NA values in the features.
 - Create new features from historical_transactions.csv
-  - hist_trans_min
-  - hist_trans_max
-  - hist_trans_median
-  - hist_trans_std
-  - hist_trans_sum
-  - hist_trans_count
-  - hist_auth_min_n
-  - hist_auth_min_y
-  - hist_auth_max_n
-  - hist_auth_max_y
-  - hist_auth_median_n
-  - hist_auth_median_y
-  - hist_auth_std_n
-  - hist_auth_std_y
-  - hist_auth_sum_n
-  - hist_auth_sum_y
-  - hist_auth_count_y_pct
-  - hist_install_count_y_pct
-  - hist_cat_1_y_pct
-  - hist_cat_2_1_pct
-  - hist_cat_2_2_pct
-  - hist_cat_2_3_pct
-  - hist_cat_2_4_pct
-  - hist_cat_2_5_pct
-  - hist_cat_3_A_pct
-  - hist_cat_3_B_pct
-  - hist_cat_3_C_pct
-  - hist_cat_4_n_pct
-  - hist_cat_4_y_pct
-  - hist_subsector_1_pct
-  - hist_subsector_2_pct
-  - hist_subsector_3_pct
-  - hist_subsector_4_pct
-  - hist_subsector_5_pct
-  - hist_subsector_7_pct
-  - hist_subsector_8_pct
-  - hist_subsector_9_pct
-  - hist_subsector_10_pct
-  - hist_subsector_11_pct
-  - hist_subsector_12_pct
-  - hist_subsector_13_pct
-  - hist_subsector_14_pct
-  - hist_subsector_15_pct
-  - hist_subsector_16_pct
-  - hist_subsector_17_pct
-  - hist_subsector_18_pct
-  - hist_subsector_19_pct
-  - hist_subsector_20_pct
-  - hist_subsector_21_pct
-  - hist_subsector_22_pct
-  - hist_subsector_23_pct
-  - hist_subsector_24_pct
-  - hist_subsector_25_pct
-  - hist_subsector_26_pct
-  - hist_subsector_27_pct
-  - hist_subsector_28_pct
-  - hist_subsector_29_pct
-  - hist_subsector_30_pct
-  - hist_subsector_31_pct
-  - hist_subsector_32_pct
-  - hist_subsector_33_pct
-  - hist_subsector_34_pct
-  - hist_subsector_35_pct
-  - hist_subsector_36_pct
-  - hist_subsector_37_pct
-  - hist_subsector_38_pct
-  - hist_subsector_39_pct
-  - hist_subsector_40_pct
-  - hist_subsector_41_pct
-  - hist_date_min_delta
-  - hist_date_max_delta
-
 - Create new features from new_merchant_transactions.csv
-  - new_trans_min
-  - new_trans_max
-  - new_trans_median
-  - new_trans_std
-  - new_trans_sum
-  - new_trans_count
-  - new_install_count_y_pct
-  - new_cat_1_y_pct
-  - new_cat_2_1_pct
-  - new_cat_2_2_pct
-  - new_cat_2_3_pct
-  - new_cat_2_4_pct
-  - new_cat_2_5_pct
-  - new_cat_3_A_pct
-  - new_cat_3_B_pct
-  - new_cat_3_C_pct
-  - new_cat_4_n_pct
-  - new_cat_4_y_pct
-  - new_subsector_1_pct
-  - new_subsector_2_pct
-  - new_subsector_3_pct
-  - new_subsector_4_pct
-  - new_subsector_5_pct
-  - new_subsector_7_pct
-  - new_subsector_8_pct
-  - new_subsector_9_pct
-  - new_subsector_10_pct
-  - new_subsector_11_pct
-  - new_subsector_12_pct
-  - new_subsector_13_pct
-  - new_subsector_14_pct
-  - new_subsector_15_pct
-  - new_subsector_16_pct
-  - new_subsector_17_pct
-  - new_subsector_18_pct
-  - new_subsector_19_pct
-  - new_subsector_20_pct
-  - new_subsector_21_pct
-  - new_subsector_22_pct
-  - new_subsector_23_pct
-  - new_subsector_24_pct
-  - new_subsector_25_pct
-  - new_subsector_26_pct
-  - new_subsector_27_pct
-  - new_subsector_28_pct
-  - new_subsector_29_pct
-  - new_subsector_30_pct
-  - new_subsector_31_pct
-  - new_subsector_32_pct
-  - new_subsector_33_pct
-  - new_subsector_34_pct
-  - new_subsector_35_pct
-  - new_subsector_36_pct
-  - new_subsector_37_pct
-  - new_subsector_38_pct
-  - new_subsector_39_pct
-  - new_subsector_40_pct
-  - new_subsector_41_pct
-  - new_date_min_delta
-  - new_date_max_delta
-
 - Feature Importance
 ![feature importance](./images/feature_importance.png)
+- Feature Selection
 
 # Parameter Tuning and Model Evaluation
 - LightGBM
@@ -258,17 +212,6 @@ The `target` value in train data set is normally distrubited with some outliers.
 ![xgboost](./images/xgb_result.png)
 
 # Model Selection and Ensemble
-
-# Things to do
-- Outlier (Very very very important)
-- Feature generation
-   - [Check time variable](https://www.kaggle.com/denzo123/a-closer-look-at-date-variables)
-- [Feature extraction](https://www.kaggle.com/c/elo-merchant-category-recommendation/discussion/73937)
-- Missing value / NaN value
-- Para tuning
-- Ensemble
-- Error analysis: find out data points with large error values and see why they perform badly
-- [Check external data / Data leak](https://www.kaggle.com/c/elo-merchant-category-recommendation/discussion/72958)
 
 # Reference
 - [Starter EDA + XGBoost of Elo Merchant Data](https://www.kaggle.com/robikscube/starter-eda-xgboost-of-elo-merchant-data)
