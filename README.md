@@ -240,6 +240,7 @@ The `trans_hour` is derived from `purchase_date` in both historical and new tran
 - [Some tips](https://www.kaggle.com/c/elo-merchant-category-recommendation/discussion/78058)
 - [Target - true meaning revealed!](https://www.kaggle.com/raddar/target-true-meaning-revealed/)
 - [Towards de-anonymizing the data! Some insights](https://www.kaggle.com/raddar/towards-de-anonymizing-the-data-some-insights)
+- [Feature Engineering on multiple reference dates.](https://www.kaggle.com/rajeshcv/feature-engineering-on-multiple-reference-dates)
 - [Boruta feature elimination](https://www.kaggle.com/tilii7/boruta-feature-elimination)
 - [Feature Selection with Null Importances](https://www.kaggle.com/ogrellier/feature-selection-with-null-importances)
 - [Hyperparameter tuning](https://www.kaggle.com/fabiendaniel/hyperparameter-tuning)
