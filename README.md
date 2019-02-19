@@ -75,6 +75,23 @@ The model will predict a loyalty score for each `card_id` based on the the custo
   - `card_id`: Card identifier
   - `target`: Customer loyalty score
 
+# Some Context on the Data
+
+- Refereced from:
+  - [Welcome to Elo competition!](https://www.kaggle.com/c/elo-merchant-category-recommendation/discussion/72993)
+
+- "Evaluation period" in target description is the period in which new merchant transactions happen. The loyalty score is calculated after historical and evaluation transaction period are given in order to avoid data leakage.
+
+- This competition is not a traditional collaborative filtering/recommendation system challenge since we don’t have a direct definition of what is great merchant or experience. Despite that, we want to link historical information of merchants visits and purchases to a loyalty score, which is basically a business metric that considered both future spending and retention as main components. We expect you to link this information in order to find what triggers higher loyalty scores and you can use any kind of modeling, including recommendation system, but not exclusively. You can be as creative as you want!
+
+- The loyalty score has little, if anything, to do with the data we have been given. Elo wants to see if the transaction and merchant data they have can be used to predict this loyalty score. And I think we can use the given data and external data in any way we choose.
+
+- For the transaction data files, ignore the descriptions on the data page. No one can figure out what they mean. I combined the historical and new files and used the complete file to build aggregates and other features. You need to be careful about the mysterious reference date when doing this - some cards have different reference dates than others.
+
+- Reference date. I believe this is the date that the loyalty score was calculated. There is no information (that I have seen) that states when the reference date is. I used month_lag to determine the "reference month" for each card (reference_month = purchase_date_month - month_lag). Then I defined the reference date as the last day of the reference month, but there are other ways to do it also.
+
+- Merchants. The merchant data is a little messy as there are disconnects between the merchant file and the merchant columns in the transaction data. This is a very real-world problem and you'll have to decide which file to go with. I deleted the common columns out of the transaction data and then replaced them using the merchants file (then both agree and every merchant has one subsector, city, state, etc.). That is one way, but may not be the best way, to proceed.
+
 # Exploratory Data Analysis
 The `features` in train and test data set have similar distributions.
 - `feature_1` has 5 unique values.
