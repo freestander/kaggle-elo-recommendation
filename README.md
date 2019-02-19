@@ -221,7 +221,7 @@ The `trans_hour` is derived from `purchase_date` in both historical and new tran
 - [Reducing memory use of Transactions df by 12x](https://www.kaggle.com/poedator/reducing-memory-use-of-transactions-df-by-12x)
 - [Simple LightGBM without blending](https://www.kaggle.com/mfjwr1/simple-lightgbm-without-blending)
 - [Some tips](https://www.kaggle.com/c/elo-merchant-category-recommendation/discussion/78058)
-- [target - true meaning revealed!](https://www.kaggle.com/raddar/target-true-meaning-revealed/)
+- [Target - true meaning revealed!](https://www.kaggle.com/raddar/target-true-meaning-revealed/)
 - [Towards de-anonymizing the data! Some insights](https://www.kaggle.com/raddar/towards-de-anonymizing-the-data-some-insights)
 - [Boruta feature elimination](https://www.kaggle.com/tilii7/boruta-feature-elimination)
 - [Feature Selection with Null Importances](https://www.kaggle.com/ogrellier/feature-selection-with-null-importances)
