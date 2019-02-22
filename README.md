@@ -75,9 +75,9 @@ The model will predict a loyalty score for each `card_id` based on the the custo
   - `card_id`: Card identifier
   - `target`: Customer loyalty score
 
-# Some Context on the Data
+# Some Insights on the Data
 
-- Refereced from:
+- Referenced from:
   - [Welcome to Elo competition!](https://www.kaggle.com/c/elo-merchant-category-recommendation/discussion/72993)
 
 - "Evaluation period" in target description is the period in which new merchant transactions happen. The loyalty score is calculated after historical and evaluation transaction period are given in order to avoid data leakage.
@@ -227,8 +227,6 @@ The `trans_hour` is derived from `purchase_date` in both historical and new tran
   - LB Score: 3.882
 
 ![xgboost](./images/xgb_result.png)
-
-# Model Selection and Ensemble
 
 # Reference
 - [Starter EDA + XGBoost of Elo Merchant Data](https://www.kaggle.com/robikscube/starter-eda-xgboost-of-elo-merchant-data)
