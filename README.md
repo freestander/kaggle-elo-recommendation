@@ -215,8 +215,8 @@ The `trans_hour` is derived from `purchase_date` in both historical and new tran
 # Parameter Tuning and Model Evaluation
 - LightGBM
   - 5-Fold CV
-  - Testing RMSE: [3.78165, 3.72946, 3.76188, 3.75762, 3.81691]
-  - LB Score: 3.841
+  - Testing RMSE: [3.717595, 3.608225, 3.748350, 3.633541, 3.547121]
+  - LB Score: 3.695
 
 ![light_gbm](./images/lgb_result.png)
 
