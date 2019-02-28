@@ -1,10 +1,10 @@
 # Kaggle Elo Merchant Category Recommendation
 This is the repo for Kaggle's Elo Merchant Category Recommendation. The Kaggle competition page can be found in [the link here.](https://www.kaggle.com/c/elo-merchant-category-recommendation)
 
-# Problem Description
+## Problem Description
 The model will predict a loyalty score for each `card_id` based on the the customer features and merchant transaction history. 
 
-# Data Description
+## Data Description
 - train.csv - The training data set
   - `first_active_month`: Card first active month
   - `card_id`: Card identifier
@@ -75,7 +75,7 @@ The model will predict a loyalty score for each `card_id` based on the the custo
   - `card_id`: Card identifier
   - `target`: Customer loyalty score
 
-# Some Insights on the Data
+## Some Insights on the Data
 
 - Referenced from:
   - [Welcome to Elo competition!](https://www.kaggle.com/c/elo-merchant-category-recommendation/discussion/72993)
@@ -92,7 +92,7 @@ The model will predict a loyalty score for each `card_id` based on the the custo
 
 - Merchants. The merchant data is a little messy as there are disconnects between the merchant file and the merchant columns in the transaction data. This is a very real-world problem and you'll have to decide which file to go with. I deleted the common columns out of the transaction data and then replaced them using the merchants file (then both agree and every merchant has one subsector, city, state, etc.). That is one way, but may not be the best way, to proceed.
 
-# Exploratory Data Analysis
+## Exploratory Data Analysis
 The `features` in train and test data set have similar distributions.
 - `feature_1` has 5 unique values.
 - `feature_2` has 3 unique values.
@@ -202,7 +202,7 @@ The `trans_hour` is derived from `purchase_date` in both historical and new tran
 
 ![trans_hour](./images/trans_hour.png)
 
-# Data Processing and Feature Engineering
+## Data Processing and Feature Engineering
 - Reduce memory footprint by optimizing data types.
 - Process outliers with respect to `target` in train.csv.
 - Fill in logic for NA values in the features.
@@ -212,7 +212,7 @@ The `trans_hour` is derived from `purchase_date` in both historical and new tran
 ![feature importance](./images/feature_importance.png)
 - Feature Selection
 
-# Parameter Tuning and Model Evaluation
+## Parameter Tuning and Model Evaluation
 - LightGBM
   - 5-Fold CV
   - Testing RMSE: [3.717595, 3.608225, 3.748350, 3.633541, 3.547121]
@@ -228,7 +228,7 @@ The `trans_hour` is derived from `purchase_date` in both historical and new tran
 
 ![xgboost](./images/xgb_result.png)
 
-# Reference
+## Reference
 - [Starter EDA + XGBoost of Elo Merchant Data](https://www.kaggle.com/robikscube/starter-eda-xgboost-of-elo-merchant-data)
 - [Simple Exploration Notebook - Elo](https://www.kaggle.com/sudalairajkumar/simple-exploration-notebook-elo)
 - [Kaggle Beginner: LGBM Starter](https://www.kaggle.com/bgrad3031/kaggle-beginner-lgbm-starter)
