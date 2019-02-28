@@ -1,6 +1,6 @@
 # Things to do
 
-- Outlier (Very very very important)
+- Outlier
 - Feature generation
    - [Check time variable](https://www.kaggle.com/denzo123/a-closer-look-at-date-variables)
 - [Feature extraction](https://www.kaggle.com/c/elo-merchant-category-recommendation/discussion/73937)
@@ -53,4 +53,3 @@
    - [FM](https://www.kaggle.com/c/elo-merchant-category-recommendation/discussion/76480) / FFM / FTRL
    - Feature selection with [Boruta](https://www.kaggle.com/c/elo-merchant-category-recommendation/discussion/78408) and [RFE](https://www.kaggle.com/roydatascience/recursive-feature-selection-using-sklearn-on-elo?scriptVersionId=9917777) and [null importance](https://www.kaggle.com/ogrellier/feature-selection-with-null-importances) and [less is more](https://www.kaggle.com/c/elo-merchant-category-recommendation/discussion/73937)
    - Try the [co-occurance matrix](https://www.kaggle.com/c/elo-merchant-category-recommendation/discussion/78600) concept
-   - 
