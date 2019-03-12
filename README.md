@@ -71,7 +71,7 @@ The model will predict a loyalty score for each `card_id` based on the the custo
   - `category_2`: Anonymized category
   - `state_id`: State identifier (anonymized)
   - `subsector_id`: Merchant category group (anonymized)
-- sample_submission.csv - A sample submission file in the correct format whichcontains all card_ids you are expected to predict for.
+- sample_submission.csv - A sample submission file in the correct format which contains all card_ids you are expected to predict for.
   - `card_id`: Card identifier
   - `target`: Customer loyalty score
 
